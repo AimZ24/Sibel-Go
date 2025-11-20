@@ -1,0 +1,141 @@
+{
+    "matematika": {
+        "semester_1": {
+            "bab_1": {
+                "title": "Bunga Tunggal, Majemuk dan Anuitas",
+                "summary": "<p><strong>Bunga Majemuk</strong> adalah bunga yang dihitung berdasarkan modal awal ditambah bunga yang terakumulasi. Rumus: Mn = Mo(1 + i)^n.</p>",
+                "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441084220939440149/WhatsApp_Image_2025-11-20_at_21.30.41.jpeg?ex=692081c4&is=691f3044&hm=01e3e07a4768977d779dda47a1eb8bc2ce7e030a649fe82c875813ba911551e5&",
+                "questions": [
+                    {
+                        "id": 1,
+                        "question": "Rumus bunga Majemmuk adalah...",
+                        "options": [
+                            "Mn = Mo(1 + i)^n",
+                            "Mn = Mo(1 + n.i)",
+                            "Mn = Mo + n.i",
+                            "Mn = Mo / n.i"
+                        ],
+                        "answer": "Mn = Mo(1 + i)^n"
+                    },
+                    {
+                        "id": 2,
+                        "question": "Apa yang dimaksud bunga Majemuk?",
+                        "options": [
+                            "Pembayaran yang berbeda setiap periode",
+                            "Pembayaran yang sama setiap awal periode",
+                            "Rangkaian pembayaran yang sama jumlahnya setiap akhir periode",
+                            "Bunga yang dihitung berdasarkan modal awal ditambah bunga yang terakumulasi"
+                        ],
+                        "answer": "Bunga yang dihitung berdasarkan modal awal ditambah bunga yang terakumulasi"
+                    }
+                ]
+            },
+            "bab_2": {
+                "title": "Matriks",
+                "summary": "<p><strong>Matriks</strong> adalah susunan bilangan dalam bentuk baris dan kolom.</p><p>Operasi Matriks meliputi:</p><ul><li>Penjumlahan dan Pengurangan (ordo harus sama)</li><li>Perkalian Skalar</li><li>Perkalian Dua Matriks (kolom matriks 1 = baris matriks 2)</li><li>Determinan dan Invers</li></ul>",
+                "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441087223633019002/image.png?ex=69208490&is=691f3310&hm=bcc33c06c1c856e9649fcf83738d419fe209f0d952fc7b672816813270d7a92f&",
+                "questions": [
+                    {
+                        "id": 1,
+                        "question": "Syarat perkalian dua matriks adalah...",
+                        "options": [
+                            "Ordo harus sama",
+                            "Jumlah baris matriks pertama = jumlah kolom matriks kedua",
+                            "Jumlah kolom matriks pertama = jumlah baris matriks kedua",
+                            "Elemennya harus sama"
+                        ],
+                        "answer": "Jumlah kolom matriks pertama = jumlah baris matriks kedua"
+                    }
+                ]
+            }
+        }
+    },
+    "biologi": {
+        "semester_1": {
+            "bab_1": {
+                "title": "Sel dan Transpor Melalui Membran Sel",
+                "summary": "<p><strong>Sel</strong> adalah unit terkecil kehidupan.</p><p><strong>Transpor Membran:</strong></p><ul><li><strong>Pasif:</strong> Difusi, Osmosis (tanpa energi).</li><li><strong>Aktif:</strong> Pompa Ion, Endositosis, Eksositosis (butuh energi).</li></ul>",
+                "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVvThSxaH61bG2Tp0Eyr4qeIXDQnhaipI4mO_wdK5zKxuihisTQXXLkcP5Fh3mzjjb2LMU39OaSLsOc3b7_vjgfzgykBsIYq8DVmfonVaHTealUAUAvBdXMyqw-4-OBZx4eQSGKhnIclhk/s522/Membran-sel.+materi.Co.ID.png",
+                "questions": [
+                    {
+                        "id": 1,
+                        "question": "Transpor zat yang tidak memerlukan energi disebut...",
+                        "options": [
+                            "Transpor Aktif",
+                            "Transpor Pasif",
+                            "Endositosis",
+                            "Eksositosis"
+                        ],
+                        "answer": "Transpor Pasif"
+                    }
+                ]
+            }
+        }
+    },
+    "bindo": {
+        "semester_1": {
+            "bab_1": {
+                "title": "Mengenalkan dan Mempromosikan Produk Pangan Lokal",
+                "summary": "<p>Bab ini membahas tentang teks argumentasi dan persuasi untuk mempromosikan produk pangan lokal Indonesia.</p>",
+                "image": "https://cdn-icons-png.flaticon.com/512/2927/2927347.png",
+                "questions": [
+                    {
+                        "id": 1,
+                        "question": "Teks yang bertujuan mempengaruhi pembaca disebut...",
+                        "options": [
+                            "Narasi",
+                            "Deskripsi",
+                            "Persuasi",
+                            "Eksposisi"
+                        ],
+                        "answer": "Persuasi"
+                    }
+                ]
+            }
+        }
+    },
+    "bing": {
+        "semester_1": {
+            "bab_1": {
+                "title": "Legend",
+                "summary": "<p><strong>Narrative Text (Legend)</strong>: Cerita rakyat yang dianggap benar-benar terjadi oleh yang punya cerita.</p><p>Structure: Orientation, Complication, Resolution.</p>",
+                "image": "https://cdn-icons-png.flaticon.com/512/3662/3662503.png",
+                "questions": [
+                    {
+                        "id": 1,
+                        "question": "Structure of Narrative Text is...",
+                        "options": [
+                            "Goal, Materials, Steps",
+                            "Orientation, Complication, Resolution",
+                            "Thesis, Arguments, Reiteration",
+                            "Identification, Description"
+                        ],
+                        "answer": "Orientation, Complication, Resolution"
+                    }
+                ]
+            }
+        }
+    },
+    "informatika": {
+        "semester_1": {
+            "bab_1": {
+                "title": "Informatika dan Keterampilan Generik",
+                "summary": "<p>Pengantar Informatika, bekerja dalam tim, dan komunikasi efektif.</p>",
+                "image": "https://cdn-icons-png.flaticon.com/512/2000/2000535.png",
+                "questions": [
+                    {
+                        "id": 1,
+                        "question": "Apa itu Informatika?",
+                        "options": [
+                            "Ilmu tentang komputer",
+                            "Ilmu tentang informasi",
+                            "Studi tentang perancangan dan pengembangan sistem komputasi",
+                            "Semua benar"
+                        ],
+                        "answer": "Studi tentang perancangan dan pengembangan sistem komputasi"
+                    }
+                ]
+            }
+        }
+    }
+}
