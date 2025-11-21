@@ -73,21 +73,21 @@ document.addEventListener('DOMContentLoaded', function () {
                     if (data[subject]) {
                         quizData = data[subject];
                     } else {
-                        console.error('Subject data not found for:', subject);
+                        console.error('data tidak ditemukan:', subject);
                     }
                 })
-                .catch(error => console.error('Error loading quiz data:', error));
+                .catch(error => console.error('Error data quiz:', error));
         } else {
-            console.error('No data-subject attribute found on body.');
+            console.error('tidak ada.');
         }
 
         semesterSelect.addEventListener('change', function () {
             const semester = this.value;
-            console.log('Semester selected:', semester);
+
             babSelect.innerHTML = '<option selected disabled>Pilih Bab</option>';
             babSelect.disabled = false;
 
-            // Reset UI state
+
             studyContent.classList.add('d-none');
             initialState.classList.remove('d-none');
             currentBabData = null;
@@ -106,11 +106,11 @@ document.addEventListener('DOMContentLoaded', function () {
         babSelect.addEventListener('change', function () {
             const semester = semesterSelect.value;
             const babKey = this.value;
-            console.log('Bab selected:', babKey);
+
 
             if (quizData && quizData[semester] && quizData[semester][babKey]) {
                 currentBabData = quizData[semester][babKey];
-                console.log('Current Bab Data loaded:', currentBabData);
+
 
                 initialState.classList.add('d-none');
                 studyContent.classList.remove('d-none');
@@ -121,11 +121,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 const materiImage = document.getElementById('materiImage');
                 if (materiImage) {
                     if (currentBabData.image) {
-                        console.log('Setting chapter image:', currentBabData.image);
+
                         materiImage.src = currentBabData.image;
                         materiImage.classList.remove('d-none');
                     } else {
-                        console.log('No chapter image found');
+
                         materiImage.classList.add('d-none');
                     }
                 }
@@ -146,10 +146,10 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         function renderQuiz(questions) {
-            console.log('Rendering quiz with questions:', questions);
+
             quizContainer.innerHTML = '';
             questions.forEach((q, index) => {
-                console.log(`Question ${index + 1} image:`, q.image);
+
                 const questionEl = document.createElement('div');
                 questionEl.classList.add('mb-4');
                 questionEl.innerHTML = `
