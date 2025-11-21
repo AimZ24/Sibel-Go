@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const subject = document.body.getAttribute('data-subject');
 
         if (subject) {
-            fetch('../quiz.json')
+            fetch('../quiz.json?v=' + new Date().getTime())
                 .then(response => response.json())
                 .then(data => {
                     if (data[subject]) {
@@ -83,8 +83,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
         semesterSelect.addEventListener('change', function () {
             const semester = this.value;
+            console.log('Semester selected:', semester);
             babSelect.innerHTML = '<option selected disabled>Pilih Bab</option>';
             babSelect.disabled = false;
+
+            // Reset UI state
+            studyContent.classList.add('d-none');
+            initialState.classList.remove('d-none');
+            currentBabData = null;
 
             if (quizData && quizData[semester]) {
                 Object.keys(quizData[semester]).forEach(babKey => {
@@ -100,9 +106,11 @@ document.addEventListener('DOMContentLoaded', function () {
         babSelect.addEventListener('change', function () {
             const semester = semesterSelect.value;
             const babKey = this.value;
+            console.log('Bab selected:', babKey);
 
             if (quizData && quizData[semester] && quizData[semester][babKey]) {
                 currentBabData = quizData[semester][babKey];
+                console.log('Current Bab Data loaded:', currentBabData);
 
                 initialState.classList.add('d-none');
                 studyContent.classList.remove('d-none');
@@ -113,9 +121,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 const materiImage = document.getElementById('materiImage');
                 if (materiImage) {
                     if (currentBabData.image) {
+                        console.log('Setting chapter image:', currentBabData.image);
                         materiImage.src = currentBabData.image;
                         materiImage.classList.remove('d-none');
                     } else {
+                        console.log('No chapter image found');
                         materiImage.classList.add('d-none');
                     }
                 }
@@ -136,11 +146,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         function renderQuiz(questions) {
+            console.log('Rendering quiz with questions:', questions);
             quizContainer.innerHTML = '';
             questions.forEach((q, index) => {
+                console.log(`Question ${index + 1} image:`, q.image);
                 const questionEl = document.createElement('div');
                 questionEl.classList.add('mb-4');
                 questionEl.innerHTML = `
+                    ${q.image ? `<img src="${q.image}" class="question-img mb-3" alt="Question Image" style="max-width: 100%; height: auto;">` : ''}
                     <h5 class="mb-3">${index + 1}. ${q.question}</h5>
                     <div class="list-group">
                         ${q.options.map((opt, i) => `

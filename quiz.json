@@ -2,12 +2,13 @@
     "matematika": {
         "semester_1": {
             "bab_1": {
-                "title": "Bunga Tunggal, Majemuk dan Anuitas",
+                "title": "Bunga Majemuk",
                 "summary": "<p><strong>Bunga Majemuk</strong> adalah bunga yang dihitung berdasarkan modal awal ditambah bunga yang terakumulasi. Rumus: Mn = Mo(1 + i)^n.</p>",
                 "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441084220939440149/WhatsApp_Image_2025-11-20_at_21.30.41.jpeg?ex=692081c4&is=691f3044&hm=01e3e07a4768977d779dda47a1eb8bc2ce7e030a649fe82c875813ba911551e5&",
                 "questions": [
                     {
                         "id": 1,
+                        "image": "",
                         "question": "Rumus bunga Majemmuk adalah...",
                         "options": [
                             "Mn = Mo(1 + i)^n",
@@ -19,6 +20,7 @@
                     },
                     {
                         "id": 2,
+                        "image": "",
                         "question": "Apa yang dimaksud bunga Majemuk?",
                         "options": [
                             "Pembayaran yang berbeda setiap periode",
@@ -27,16 +29,29 @@
                             "Bunga yang dihitung berdasarkan modal awal ditambah bunga yang terakumulasi"
                         ],
                         "answer": "Bunga yang dihitung berdasarkan modal awal ditambah bunga yang terakumulasi"
+                    },
+                    {
+                        "id": 3,
+                        "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441240791644377200/image.png?ex=69211395&is=691fc215&hm=7073d26b910e771b189b6c247aef4679c41ce504c5cea17d36e523fc4718fd12&",
+                        "question": "Selesaikan soal pada gambar di atas",
+                        "options": [
+                            "Rp.3.257.780,00",
+                            "Rp.4.257.780,00",
+                            "Rp.5.257.780,00",
+                            "Rp.6.257.780,00"
+                        ],
+                        "answer": "Rp.3.257.780,00"
                     }
                 ]
             },
             "bab_2": {
                 "title": "Matriks",
                 "summary": "<p><strong>Matriks</strong> adalah susunan bilangan dalam bentuk baris dan kolom.</p><p>Operasi Matriks meliputi:</p><ul><li>Penjumlahan dan Pengurangan (ordo harus sama)</li><li>Perkalian Skalar</li><li>Perkalian Dua Matriks (kolom matriks 1 = baris matriks 2)</li><li>Determinan dan Invers</li></ul>",
-                "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441087223633019002/image.png?ex=69208490&is=691f3310&hm=bcc33c06c1c856e9649fcf83738d419fe209f0d952fc7b672816813270d7a92f&",
+                "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441235023431860314/image.png?ex=69210e36&is=691fbcb6&hm=5baadedd200cd3d832882289a992516a587988c2a12653366b31dc50b083ad85&",
                 "questions": [
                     {
                         "id": 1,
+                        "image": "",
                         "question": "Syarat perkalian dua matriks adalah...",
                         "options": [
                             "Ordo harus sama",
@@ -45,6 +60,18 @@
                             "Elemennya harus sama"
                         ],
                         "answer": "Jumlah kolom matriks pertama = jumlah baris matriks kedua"
+                    },
+                    {
+                        "id": 2,
+                        "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441241544253509776/image.png?ex=69211449&is=691fc2c9&hm=c9a83f1da3de8d54724ae626a2ad70521e953a11d9f6692c2a337c4ef04a3361&",
+                        "question": "Selesaikan soal pada gambar diatas",
+                        "options": [
+                            "[12 31 40 10]",
+                            "[17 23 39 53]",
+                            "[51 20 11 20]",
+                            "[10 22 11 13]"
+                        ],
+                        "answer": "[17 23 39 53]"
                     }
                 ]
             }
@@ -54,19 +81,742 @@
         "semester_1": {
             "bab_1": {
                 "title": "Sel dan Transpor Melalui Membran Sel",
-                "summary": "<p><strong>Sel</strong> adalah unit terkecil kehidupan.</p><p><strong>Transpor Membran:</strong></p><ul><li><strong>Pasif:</strong> Difusi, Osmosis (tanpa energi).</li><li><strong>Aktif:</strong> Pompa Ion, Endositosis, Eksositosis (butuh energi).</li></ul>",
-                "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVvThSxaH61bG2Tp0Eyr4qeIXDQnhaipI4mO_wdK5zKxuihisTQXXLkcP5Fh3mzjjb2LMU39OaSLsOc3b7_vjgfzgykBsIYq8DVmfonVaHTealUAUAvBdXMyqw-4-OBZx4eQSGKhnIclhk/s522/Membran-sel.+materi.Co.ID.png",
+                "summary": "<p><strong>Sel</strong> adalah unit struktural dan fungsional terkecil dari kehidupan. Membran sel tersusun dari <b>lapisan ganda fosfolipid</b> dan protein, bersifat <b>semipermeabel**.</p> <ul><li><strong>Transpor Pasif:</strong> Perpindahan zat tanpa energi (Difusi, Osmosis).</li><li><strong>Transpor Aktif:</strong> Perpindahan zat menggunakan energi (ATP) melawan gradien konsentrasi (Pompa ion, Endositosis, Eksositosis).</li><li>Organel Kunci:</b> Mitokondria (respirasi sel), Retikulum Endoplasma (sintesis), Ribosom (protein), Nukleus (inti sel).</li></ul>",
+                "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVvThSxaH61bG2Tp0Eyr4qeIXDQnhaipI-mO_wdK5zKxuihisTQXXLkcP5Fh3mzjjb2LMU39OaSLsOc3b7_vjgfzgykBsIYq8DVmfonVaHTealUAUAvBdXMyqw-4-OBZx4eQSGKhnIclhk/s522/Membran-sel.+materi.Co.ID.png",
                 "questions": [
                     {
                         "id": 1,
-                        "question": "Transpor zat yang tidak memerlukan energi disebut...",
+                        "image": "",
+                        "question": "Transpor zat yang tidak memerlukan energi ATP disebut...",
                         "options": [
                             "Transpor Aktif",
                             "Transpor Pasif",
                             "Endositosis",
-                            "Eksositosis"
+                            "Pompa Ion"
                         ],
                         "answer": "Transpor Pasif"
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "Struktur dasar membran sel tersusun atas...",
+                        "options": [
+                            "Lipid tunggal",
+                            "Lapisan ganda fosfolipid dan protein",
+                            "Karbohidrat kompleks",
+                            "Dinding sel selulosa"
+                        ],
+                        "answer": "Lapisan ganda fosfolipid dan protein"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Proses perpindahan zat terlarut dari konsentrasi tinggi ke konsentrasi rendah tanpa melalui protein pembawa disebut...",
+                        "options": [
+                            "Osmosis",
+                            "Difusi Terfasilitasi",
+                            "Difusi Sederhana",
+                            "Endositosis"
+                        ],
+                        "answer": "Difusi Sederhana"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "Organel yang berperan sebagai pusat respirasi sel dan menghasilkan energi (ATP) adalah...",
+                        "options": [
+                            "Retikulum Endoplasma",
+                            "Nukleus",
+                            "Mitokondria",
+                            "Ribosom"
+                        ],
+                        "answer": "Mitokondria"
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Perpindahan molekul air dari larutan berkonsentrasi rendah (hipotonik) ke larutan berkonsentrasi tinggi (hipertonik) melalui membran semipermeabel disebut...",
+                        "options": [
+                            "Difusi",
+                            "Osmosis",
+                            "Pompa Natrium-Kalium",
+                            "Eksositosis"
+                        ],
+                        "answer": "Osmosis"
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "Jika sel hewan (eritrosit) dimasukkan ke dalam larutan <b>hipotonik</b> (konsentrasi zat terlarut lebih rendah), sel tersebut akan mengalami...",
+                        "options": [
+                            "Plasmolisis",
+                            "Krenasi",
+                            "Lisis (Hemolisis)",
+                            "Turgid"
+                        ],
+                        "answer": "Lisis (Hemolisis)"
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "Transpor aktif yang melibatkan pengeluaran zat padat atau molekul besar dari sel dengan pembentukan vesikel adalah...",
+                        "options": [
+                            "Fagositosis",
+                            "Endositosis",
+                            "Eksositosis",
+                            "Difusi Terfasilitasi"
+                        ],
+                        "answer": "Eksositosis"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "Organel tempat berlangsungnya sintesis protein adalah...",
+                        "options": [
+                            "Badan Golgi",
+                            "Lisosom",
+                            "Retikulum Endoplasma Halus",
+                            "Ribosom"
+                        ],
+                        "answer": "Ribosom"
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "Sifat membran sel yang hanya mengizinkan molekul tertentu melewatinya disebut...",
+                        "options": [
+                            "Permeabel",
+                            "Impermeabel",
+                            "Selektif Permeabel (Semipermeabel)",
+                            "Tembus sempurna"
+                        ],
+                        "answer": "Selektif Permeabel (Semipermeabel)"
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "Apa fungsi utama protein integral pada membran sel?",
+                        "options": [
+                            "Menyimpan energi.",
+                            "Sebagai kerangka struktural membran.",
+                            "Sebagai saluran atau pompa untuk transpor zat.",
+                            "Membentuk dinding sel."
+                        ],
+                        "answer": "Sebagai saluran atau pompa untuk transpor zat."
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "Sel tumbuhan yang kehilangan air dan membran selnya terlepas dari dinding sel disebut mengalami...",
+                        "options": [
+                            "Turgid",
+                            "Lisis",
+                            "Plasmolisis",
+                            "Krenasi"
+                        ],
+                        "answer": "Plasmolisis"
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "Bagian sel eukariotik yang berfungsi untuk modifikasi, pengemasan, dan penyortiran protein serta lipid adalah...",
+                        "options": [
+                            "Vakuola",
+                            "Nukleolus",
+                            "Badan Golgi (Aparatus Golgi)",
+                            "Mitokondria"
+                        ],
+                        "answer": "Badan Golgi (Aparatus Golgi)"
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "Transportasi glukosa ke dalam sel yang memerlukan bantuan protein pembawa tetapi <b>tidak</b> memerlukan energi ATP disebut...",
+                        "options": [
+                            "Difusi Sederhana",
+                            "Transpor Aktif",
+                            "Osmosis",
+                            "Difusi Terfasilitasi"
+                        ],
+                        "answer": "Difusi Terfasilitasi"
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Perbedaan utama antara sel prokariotik (seperti bakteri) dan sel eukariotik adalah...",
+                        "options": [
+                            "Hanya sel prokariotik yang memiliki membran sel.",
+                            "Sel eukariotik memiliki nukleus yang terbungkus membran, prokariotik tidak.",
+                            "Hanya sel prokariotik yang memiliki sitoplasma.",
+                            "Sel prokariotik lebih besar daripada eukariotik."
+                        ],
+                        "answer": "Sel eukariotik memiliki nukleus yang terbungkus membran, prokariotik tidak."
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "Proses masuknya zat padat ke dalam sel dengan cara melingkupinya menggunakan membran sel (membran membentuk vesikel) disebut...",
+                        "options": [
+                            "Pinositosis",
+                            "Fagositosis",
+                            "Osmosis",
+                            "Eksositosis"
+                        ],
+                        "answer": "Fagositosis"
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "Organel yang berisi enzim hidrolitik dan berfungsi sebagai 'pembersih' sel dengan mencerna materi asing atau organel yang rusak adalah...",
+                        "options": [
+                            "Vakuola",
+                            "Lisosom",
+                            "Peroksisom",
+                            "Sentrosom"
+                        ],
+                        "answer": "Lisosom"
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "Tiga jenis filamen yang membentuk <b>sitoskeleton</b> dan memberikan bentuk serta dukungan struktural pada sel adalah...",
+                        "options": [
+                            "Nukleus, Mitokondria, Kloroplas",
+                            "Lipid, Protein, Karbohidrat",
+                            "Mikrofilamen, Filamen Intermediet, Mikrotubulus",
+                            "RE Kasar, RE Halus, Badan Golgi"
+                        ],
+                        "answer": "Mikrofilamen, Filamen Intermediet, Mikrotubulus"
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Pergerakan ion $\\text{K}^{+}$ ke dalam sel dan ion $\\text{Na}^{+}$ keluar sel melawan gradien konsentrasi adalah contoh klasik dari...",
+                        "options": [
+                            "Difusi Terfasilitasi",
+                            "Osmosis",
+                            "Pompa Natrium-Kalium (Transpor Aktif)",
+                            "Pinositosis"
+                        ],
+                        "answer": "Pompa Natrium-Kalium (Transpor Aktif)"
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "Apa fungsi utama dari <b>Retikulum Endoplasma Kasar (RE Kasar)**?",
+                        "options": [
+                            "Sintesis lipid dan detoksifikasi.",
+                            "Tempat sintesis protein yang ditujukan untuk sekresi.",
+                            "Menghasilkan energi (ATP).",
+                            "Mengandung materi genetik."
+                        ],
+                        "answer": "Tempat sintesis protein yang ditujukan untuk sekresi."
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "Jika sel tumbuhan dimasukkan ke dalam larutan <b>isotonik**, maka...",
+                        "options": [
+                            "Sel akan membengkak hingga pecah.",
+                            "Sel akan berkerut.",
+                            "Tidak terjadi pergerakan air netto, sel dalam kondisi normal (flasid).",
+                            "Membran sel terlepas dari dinding sel."
+                        ],
+                        "answer": "Tidak terjadi pergerakan air netto, sel dalam kondisi normal (flasid)."
+                    }
+                ]
+            },
+            "bab_2": {
+                "title": "Pengaturan pada Tumbuhan (Hormon dan Gerak)",
+                "summary": "<p>Bab ini membahas mekanisme pengaturan pertumbuhan, perkembangan, dan respons gerak pada tumbuhan, terutama melalui peranan hormon tumbuhan (fitohormon) dan berbagai jenis gerak sebagai respons terhadap stimulus.</p> <ul><li><strong>Hormon Kunci:</strong> <b>Auksin</b> (pemanjangan sel, fototropisme), <b>Giberelin</b> (perkecambahan, pembungaan), <b>Sitokinin</b> (pembelahan sel), <b>Asam Absisat (ABA)</b> (dormansi), <b>Etilen</b> (pematangan buah).</li><li><strong>Gerak Tumbuhan:</strong> <b>Tropisme</b> (gerak dipengaruhi arah stimulus, cth: Fototropisme), <b>Nasti</b> (gerak tidak dipengaruhi arah stimulus, cth: Niktinasti), <b>Taksis</b> (gerak pindah tempat seluruh tubuh).</li></ul>",
+                "image": "",
+                "questions": [
+                    {
+                        "id": 1,
+                        "image": "",
+                        "question": "Hormon tumbuhan yang berperan utama dalam pemanjangan sel pada daerah pucuk dan bertanggung jawab pada fenomena fototropisme adalah...",
+                        "options": [
+                            "Giberelin",
+                            "Sitokinin",
+                            "Auksin",
+                            "Asam Absisat"
+                        ],
+                        "answer": "Auksin"
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "Gerak tumbuh batang tumbuhan menuju arah datangnya cahaya disebut...",
+                        "options": [
+                            "Tigmotropisme",
+                            "Geotropisme positif",
+                            "Fototropisme positif",
+                            "Hidrotropisme"
+                        ],
+                        "answer": "Fototropisme positif"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Fenomena dormansi pada biji, yaitu kondisi biji tidak mau berkecambah meskipun kondisi lingkungan mendukung, dikendalikan oleh hormon...",
+                        "options": [
+                            "Etilen",
+                            "Asam Absisat (ABA)",
+                            "Sitokinin",
+                            "Auksin"
+                        ],
+                        "answer": "Asam Absisat (ABA)"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "Gerak membukanya daun majemuk pada malam hari dan menutupnya pada siang hari pada tumbuhan polong-polongan disebabkan oleh gerak...",
+                        "options": [
+                            "Kemonasti",
+                            "Tigmonasti",
+                            "Niktinasti",
+                            "Seismonasti"
+                        ],
+                        "answer": "Niktinasti"
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Hormon yang berperan dalam merangsang pembelahan sel (sitokinesis) dan menunda penuaan (senescence) pada daun adalah...",
+                        "options": [
+                            "Etilen",
+                            "Auksin",
+                            "Giberelin",
+                            "Sitokinin"
+                        ],
+                        "answer": "Sitokinin"
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "Gerak sulur tanaman anggur yang melilit kayu penopang merupakan contoh dari gerak...",
+                        "options": [
+                            "Fototropisme",
+                            "Hidrotropisme",
+                            "Tigmotropisme",
+                            "Geotropisme negatif"
+                        ],
+                        "answer": "Tigmotropisme"
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "Gerak akar yang tumbuh menuju pusat bumi merupakan contoh gerak...",
+                        "options": [
+                            "Geotropisme positif",
+                            "Geotropisme negatif",
+                            "Tigmonasti",
+                            "Kemonasti"
+                        ],
+                        "answer": "Geotropisme positif"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "Hormon yang secara komersial digunakan untuk mempercepat pematangan buah setelah panen adalah...",
+                        "options": [
+                            "Auksin",
+                            "Giberelin",
+                            "Etilen",
+                            "Asam Absisat"
+                        ],
+                        "answer": "Etilen"
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "Jika suatu gerak tumbuhan disebabkan oleh stimulus dari luar, tetapi arah geraknya <b>tidak</b> dipengaruhi oleh arah datangnya stimulus, gerak tersebut termasuk jenis...",
+                        "options": [
+                            "Tropisme",
+                            "Taksis",
+                            "Nasti",
+                            "Gerak Higroskopis"
+                        ],
+                        "answer": "Nasti"
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "Pada peristiwa fototropisme, auksin cenderung terkumpul pada sisi batang yang...",
+                        "options": [
+                            "Terkena cahaya langsung dan menghambat pertumbuhan.",
+                            "Terkena cahaya langsung dan merangsang pertumbuhan.",
+                            "Tidak terkena cahaya (sisi gelap) dan merangsang pemanjangan sel.",
+                            "Tidak terkena cahaya (sisi gelap) dan menghambat pemanjangan sel."
+                        ],
+                        "answer": "Tidak terkena cahaya (sisi gelap) dan merangsang pemanjangan sel."
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "Gerak membuka dan menutupnya stomata pada daun terutama dipengaruhi oleh stimulus...",
+                        "options": [
+                            "Sentuhan (Tigmonasti)",
+                            "Perubahan tekanan turgor (Gerak Nasti)",
+                            "Gravitasi (Geotropisme)",
+                            "Zat kimia (Kemonasti)"
+                        ],
+                        "answer": "Perubahan tekanan turgor (Gerak Nasti)"
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "Hormon Giberelin memiliki fungsi penting dalam...",
+                        "options": [
+                            "Mencegah perkecambahan biji.",
+                            "Merangsang pembentukan buah tanpa biji (partenokarpi).",
+                            "Mencegah penuaan daun.",
+                            "Mempercepat pengguguran daun."
+                        ],
+                        "answer": "Merangsang pembentukan buah tanpa biji (partenokarpi)."
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "Gerak hidrotropisme adalah gerak tropisme yang dipengaruhi oleh stimulus berupa...",
+                        "options": [
+                            "Gravitasi",
+                            "Air",
+                            "Cahaya",
+                            "Sentuhan"
+                        ],
+                        "answer": "Air"
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Gerak nasti yang disebabkan oleh rangsangan suhu disebut...",
+                        "options": [
+                            "Fotonasti",
+                            "Niktinasti",
+                            "Seismonasti",
+                            "Termonasti"
+                        ],
+                        "answer": "Termonasti"
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "Tumbuhan akar yang tumbuh mendekati sumber air menunjukkan gerak...",
+                        "options": [
+                            "Hidrotropisme positif",
+                            "Geotropisme negatif",
+                            "Kemonasti",
+                            "Fototropisme negatif"
+                        ],
+                        "answer": "Hidrotropisme positif"
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "Hormon manakah yang sering disebut sebagai 'hormon stres' karena perannya dalam menanggapi kondisi lingkungan yang buruk seperti kekeringan?",
+                        "options": [
+                            "Etilen",
+                            "Sitokinin",
+                            "Asam Absisat (ABA)",
+                            "Auksin"
+                        ],
+                        "answer": "Asam Absisat (ABA)"
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "Gerak pada tumbuhan yang melibatkan seluruh bagian tubuh tumbuhan untuk berpindah tempat (cth: gerak sperma lumut menuju ovum) disebut...",
+                        "options": [
+                            "Tropisme",
+                            "Taksis",
+                            "Nasti",
+                            "Gerak Higroskopis"
+                        ],
+                        "answer": "Taksis"
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Efek dominansi apikal, di mana pertumbuhan tunas lateral terhambat oleh keberadaan tunas ujung, utamanya diatur oleh hormon...",
+                        "options": [
+                            "Auksin",
+                            "Etilen",
+                            "Asam Absisat",
+                            "Giberelin"
+                        ],
+                        "answer": "Auksin"
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "Gerak Seismonasti (tigmonasti) pada daun putri malu disebabkan oleh rangsangan...",
+                        "options": [
+                            "Cahaya",
+                            "Suhu",
+                            "Gravitasi",
+                            "Sentuhan/Goncangan"
+                        ],
+                        "answer": "Sentuhan/Goncangan"
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "Apa yang terjadi pada pemanjangan sel batang jika konsentrasi Auksin terlalu tinggi?",
+                        "options": [
+                            "Pertumbuhan sel terhambat total.",
+                            "Pertumbuhan sel dipercepat secara maksimal.",
+                            "Tidak ada pengaruh yang signifikan.",
+                            "Auksin diubah menjadi Sitokinin."
+                        ],
+                        "answer": "Pertumbuhan sel dipercepat secara maksimal."
+                    }
+                ]
+            },
+            "bab_3": {
+                "title": "Transpor dan Pertukaran Zat pada Manusia",
+                "summary": "<p>Bab ini membahas sistem vital pada manusia yang bertanggung jawab atas pengangkutan (transpor) zat-zat (nutrisi, oksigen, hormon) ke seluruh tubuh dan pertukaran zat sisa (karbon dioksida, urea). Fokus utama adalah pada <b>Sistem Sirkulasi (Darah, Jantung, Pembuluh)</b> dan <b>Sistem Pernapasan (Paru-paru dan Mekanisme Pertukaran Gas)**.</p> <ul><li>**Sirkulasi:</b> Jantung sebagai pompa, darah sebagai medium transpor, pembuluh darah sebagai saluran.</li><li>**Pernapasan:</b> Oksigen diangkut ke alveolus, difusi gas terjadi antara alveolus dan kapiler.</li></ul>",
+                "image": "",
+                "questions": [
+                    {
+                        "id": 1,
+                        "image": "",
+                        "question": "Komponen darah yang bertanggung jawab utama dalam mengangkut oksigen $\\text{O}_2$ dari paru-paru ke seluruh jaringan tubuh adalah...",
+                        "options": [
+                            "Leukosit (Sel darah putih)",
+                            "Trombosit (Keping darah)",
+                            "Eritrosit (Sel darah merah)",
+                            "Plasma darah"
+                        ],
+                        "answer": "Eritrosit (Sel darah merah)"
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "Pertukaran gas oksigen $\\text{O}_2$ dan karbon dioksida $\\text{CO}_2$ di paru-paru terjadi secara efisien pada struktur gelembung kecil yang disebut...",
+                        "options": [
+                            "Bronkus",
+                            "Trakea",
+                            "Diafragma",
+                            "Alveolus"
+                        ],
+                        "answer": "Alveolus"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Mekanisme utama perpindahan $\\text{O}_2$ dari alveolus ke kapiler darah adalah melalui proses...",
+                        "options": [
+                            "Transpor aktif",
+                            "Filtrasi",
+                            "Osmosis",
+                            "Difusi"
+                        ],
+                        "answer": "Difusi"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "Pembuluh darah yang membawa darah kaya oksigen dari paru-paru menuju serambi kiri jantung adalah...",
+                        "options": [
+                            "Vena cava",
+                            "Arteri pulmonalis",
+                            "Vena pulmonalis",
+                            "Aorta"
+                        ],
+                        "answer": "Vena pulmonalis"
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Sistem sirkulasi darah pada manusia disebut sebagai sistem sirkulasi ganda karena...",
+                        "options": [
+                            "Darah selalu mengalir melalui dua jenis pembuluh (arteri dan vena).",
+                            "Darah mengalir dua kali melalui jantung dalam satu kali putaran lengkap.",
+                            "Darah mengandung dua jenis sel utama (eritrosit dan leukosit).",
+                            "Jantung memiliki dua bilik utama (atrium dan ventrikel)."
+                        ],
+                        "answer": "Darah mengalir dua kali melalui jantung dalam satu kali putaran lengkap."
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "Pengangkutan sebagian besar karbon dioksida $\\text{CO}_2$ dalam darah dilakukan dalam bentuk...",
+                        "options": [
+                            "Diikat oleh hemoglobin secara langsung.",
+                            "Diangkut dalam bentuk karbaminohemoglobin.",
+                            "Dilarutkan dalam plasma darah.",
+                            "Ion bikarbonat ($\\text{HCO}_3^{-}$)."
+                        ],
+                        "answer": "Ion bikarbonat ($\\text{HCO}_3^{-}$)."
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "Fase jantung saat bilik (ventrikel) berkontraksi untuk memompa darah keluar dari jantung disebut fase...",
+                        "options": [
+                            "Diastol",
+                            "Sistol",
+                            "Ventrikular",
+                            "Atrial"
+                        ],
+                        "answer": "Sistol"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "Pembuluh darah yang memiliki dinding tebal, elastis, dan membawa darah <b>keluar</b> dari jantung adalah...",
+                        "options": [
+                            "Vena",
+                            "Kapiler",
+                            "Arteri",
+                            "Vena Kava"
+                        ],
+                        "answer": "Arteri"
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "Kekurangan jumlah hemoglobin atau sel darah merah dalam tubuh dapat menyebabkan kondisi...",
+                        "options": [
+                            "Leukemia",
+                            "Hipertensi",
+                            "Anemia",
+                            "Talasemia"
+                        ],
+                        "answer": "Anemia"
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "Transpor nutrisi, hormon, dan zat sisa metabolisme sebagian besar dilakukan oleh komponen darah yang disebut...",
+                        "options": [
+                            "Eritrosit",
+                            "Trombosit",
+                            "Plasma darah",
+                            "Leukosit"
+                        ],
+                        "answer": "Plasma darah"
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "Bagian jantung yang menerima darah kaya oksigen dari paru-paru adalah...",
+                        "options": [
+                            "Serambi kanan (Atrium kanan)",
+                            "Bilik kanan (Ventrikel kanan)",
+                            "Serambi kiri (Atrium kiri)",
+                            "Bilik kiri (Ventrikel kiri)"
+                        ],
+                        "answer": "Serambi kiri (Atrium kiri)"
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "Proses pembekuan darah melibatkan peran utama dari komponen darah...",
+                        "options": [
+                            "Leukosit",
+                            "Eritrosit",
+                            "Trombosit",
+                            "Fibrinogen"
+                        ],
+                        "answer": "Trombosit"
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "Sistem pernapasan yang melibatkan pertukaran gas antara udara di alveolus dan darah di kapiler disebut...",
+                        "options": [
+                            "Pernapasan internal",
+                            "Pernapasan eksternal",
+                            "Ventilasi paru-paru",
+                            "Respirasi seluler"
+                        ],
+                        "answer": "Pernapasan eksternal"
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Dalam sirkulasi sistemik, darah meninggalkan jantung melalui bilik kiri menuju...",
+                        "options": [
+                            "Arteri pulmonalis",
+                            "Vena pulmonalis",
+                            "Aorta",
+                            "Vena kava"
+                        ],
+                        "answer": "Aorta"
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "Tekanan parsial $\\text{O}_2$ di alveolus lebih tinggi daripada di kapiler paru-paru. Hal ini menyebabkan $\\text{O}_2$ bergerak secara...",
+                        "options": [
+                            "Aktif melawan gradien.",
+                            "Pasif dari alveolus ke darah.",
+                            "Pasif dari darah ke alveolus.",
+                            "Hanya melalui pompa ion."
+                        ],
+                        "answer": "Pasif dari alveolus ke darah."
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "Zat sisa metabolisme nitrogen, seperti urea, dikeluarkan dari darah oleh organ...",
+                        "options": [
+                            "Hati",
+                            "Paru-paru",
+                            "Jantung",
+                            "Ginjal"
+                        ],
+                        "answer": "Ginjal"
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "Salah satu ciri utama pembuluh kapiler adalah...",
+                        "options": [
+                            "Memiliki katup di sepanjang pembuluh.",
+                            "Dindingnya sangat tebal dan berotot.",
+                            "Dindingnya hanya terdiri dari satu lapis sel (memungkinkan difusi).",
+                            "Selalu membawa darah miskin oksigen."
+                        ],
+                        "answer": "Dindingnya hanya terdiri dari satu lapis sel (memungkinkan difusi)."
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Fungsi utama dari leukosit (sel darah putih) adalah untuk...",
+                        "options": [
+                            "Mengangkut oksigen.",
+                            "Menghentikan pendarahan.",
+                            "Melawan infeksi dan penyakit.",
+                            "Mengangkut hormon."
+                        ],
+                        "answer": "Melawan infeksi dan penyakit."
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "Proses masuknya udara pernapasan ke paru-paru (inspirasi) pada pernapasan dada terjadi ketika otot antartulang rusuk...",
+                        "options": [
+                            "Relaksasi, diafragma naik.",
+                            "Kontraksi, diafragma turun.",
+                            "Kontraksi, diafragma juga kontraksi (turun).",
+                            "Relaksasi, diafragma kontraksi (turun)."
+                        ],
+                        "answer": "Kontraksi, diafragma juga kontraksi (turun)."
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "Bagian dari plasma darah yang berperan penting dalam menjaga tekanan osmotik darah adalah...",
+                        "options": [
+                            "Glukosa",
+                            "Ion kalsium",
+                            "Protein albumin",
+                            "Hemoglobin"
+                        ],
+                        "answer": "Protein albumin"
                     }
                 ]
             }
@@ -75,20 +825,743 @@
     "bindo": {
         "semester_1": {
             "bab_1": {
-                "title": "Mengenalkan dan Mempromosikan Produk Pangan Lokal",
-                "summary": "<p>Bab ini membahas tentang teks argumentasi dan persuasi untuk mempromosikan produk pangan lokal Indonesia.</p>",
-                "image": "https://cdn-icons-png.flaticon.com/512/2927/2927347.png",
+                "title": "Teks Argumentasi",
+                "summary": "<p><strong>Teks Argumentasi</strong> adalah tulisan yang berusaha meyakinkan pembaca mengenai kebenaran suatu <strong>Tesis (Klaim/Pendapat)</strong> melalui penyajian <strong>Argumen (Bukti, Fakta, dan Alasan Logis)</strong>.</p> <p><strong>Struktur Teks Argumentasi:</strong></p> <ul><li><strong>Tesis:</strong> Pernyataan sikap atau pandangan awal penulis.</li><li><strong>Argumen:</strong> Bukti, fakta, data (faktual), dan penalaran logis yang mendukung tesis.</li><li><strong>Penegasan Ulang Pendapat:</strong> Simpulan yang memperkuat kembali tesis berdasarkan argumen yang telah disajikan.</li></ul> <p><strong>Kaidah Kebahasaan Kunci:</strong></p> <ul><li><strong>Konjungsi Kausalitas:</strong> Menghubungkan sebab-akibat (karena, sebab, oleh sebab itu) untuk menunjukkan hubungan logis.</li><li><strong>Verba Mental:</strong> Kata kerja yang menyatakan reaksi atau sikap penulis (misal: meyakini, beranggapan, memandang).</li><li><strong>Modalitas:</strong> Kata keterangan yang menyatakan sikap atau penilaian penulis terhadap kebenaran klaim (misal: seharusnya, kemungkinan, pasti).</li><li><strong>Fakta vs Opini:</strong> Argumentasi menggunakan fakta (dapat dibuktikan) untuk mendukung opini (pendapat penulis).</li></ul>",
+                "image": "",
                 "questions": [
                     {
                         "id": 1,
-                        "question": "Teks yang bertujuan mempengaruhi pembaca disebut...",
+                        "image": "",
+                        "question": "Tujuan utama penulisan teks argumentasi adalah...",
                         "options": [
-                            "Narasi",
-                            "Deskripsi",
-                            "Persuasi",
-                            "Eksposisi"
+                            "Menghibur pembaca dengan cerita fiksi.",
+                            "Mengajak pembaca melakukan suatu tindakan.",
+                            "Memberikan informasi faktual tanpa opini.",
+                            "Meyakinkan pembaca terhadap kebenaran suatu pendapat (klaim)."
                         ],
-                        "answer": "Persuasi"
+                        "answer": "Meyakinkan pembaca terhadap kebenaran suatu pendapat (klaim)."
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "Bagian teks argumentasi yang berisi pandangan atau klaim awal penulis mengenai suatu isu disebut...",
+                        "options": [
+                            "Penegasan Ulang",
+                            "Abstraksi",
+                            "Argumen",
+                            "Tesis"
+                        ],
+                        "answer": "Tesis"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Elemen penting yang harus disertakan dalam bagian Argumen untuk memperkuat Tesis adalah...",
+                        "options": [
+                            "Puisi dan Pantun",
+                            "Opini pribadi yang emosional",
+                            "Data, fakta, dan bukti yang valid",
+                            "Saran dan rekomendasi"
+                        ],
+                        "answer": "Data, fakta, dan bukti yang valid"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "Pernyataan 'Pendidikan karakter harus diterapkan sejak dini untuk mencegah perilaku menyimpang' paling tepat berada di bagian struktur teks argumentasi...",
+                        "options": [
+                            "Argumen",
+                            "Penegasan Ulang",
+                            "Tesis",
+                            "Simpulan"
+                        ],
+                        "answer": "Tesis"
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Kalimat berikut yang merupakan contoh <b>fakta</b> yang cocok untuk mendukung argumen adalah...",
+                        "options": [
+                            "Saya yakin kemacetan di kota ini sangat parah.",
+                            "Seharusnya pemerintah segera mengatasi masalah polusi udara.",
+                            "Menurut data BPS tahun 2023, angka pengangguran turun 0,5% dari tahun sebelumnya.",
+                            "Kenaikan harga BBM jelas tidak adil bagi rakyat kecil."
+                        ],
+                        "answer": "Menurut data BPS tahun 2023, angka pengangguran turun 0,5% dari tahun sebelumnya."
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "Teks argumentasi harus bersifat logis dan kritis, yang berarti...",
+                        "options": [
+                            "Penulis bebas menggunakan emosi yang kuat.",
+                            "Isinya hanya berupa opini pribadi penulis.",
+                            "Semua alasan dan bukti harus masuk akal dan runtut.",
+                            "Memuat banyak cerita lucu."
+                        ],
+                        "answer": "Semua alasan dan bukti harus masuk akal dan runtut."
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "Kata atau frasa yang berfungsi menghubungkan sebab dan akibat untuk menunjukkan hubungan logis dalam teks argumentasi disebut...",
+                        "options": [
+                            "Verba Mental",
+                            "Modalitas",
+                            "Kata Sifat",
+                            "Konjungsi Kausalitas"
+                        ],
+                        "answer": "Konjungsi Kausalitas"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "Contoh konjungsi kausalitas yang sering ditemukan dalam teks argumentasi adalah...",
+                        "options": [
+                            "ketika, lalu, setelah",
+                            "dan, atau, serta",
+                            "walaupun, meskipun, padahal",
+                            "karena, sebab, oleh sebab itu"
+                        ],
+                        "answer": "karena, sebab, oleh sebab itu"
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "Manakah di antara kata berikut yang tergolong <b>Verba Mental**?",
+                        "options": [
+                            "Membawa",
+                            "Melihat",
+                            "Berlari",
+                            "Meyakini"
+                        ],
+                        "answer": "Meyakini"
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "Verba mental digunakan dalam teks argumentasi untuk...",
+                        "options": [
+                            "Menyatakan tindakan fisik tokoh.",
+                            "Menciptakan alur cerita yang menarik.",
+                            "Menunjukkan reaksi atau sikap penulis terhadap suatu argumen (opini).",
+                            "Menghubungkan dua kalimat setara."
+                        ],
+                        "answer": "Menunjukkan reaksi atau sikap penulis terhadap suatu argumen (opini)."
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "Modalitas adalah kata keterangan yang menyatakan...",
+                        "options": [
+                            "Kuantitas benda.",
+                            "Waktu kejadian.",
+                            "Sikap atau penilaian penulis terhadap kebenaran klaim.",
+                            "Kualitas suatu objek."
+                        ],
+                        "answer": "Sikap atau penilaian penulis terhadap kebenaran klaim."
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "Kata <b>'seharusnya'</b> dalam kalimat 'Pemerintah <b>seharusnya</b> memberikan subsidi kepada petani' tergolong kaidah kebahasaan...",
+                        "options": [
+                            "Verba Pewarta",
+                            "Verba Material",
+                            "Konjungsi Temporal",
+                            "Modalitas"
+                        ],
+                        "answer": "Modalitas"
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "Bagian Penegasan Ulang Pendapat memiliki fungsi utama untuk...",
+                        "options": [
+                            "Memperkenalkan isu baru.",
+                            "Mengakhiri konflik dalam cerita.",
+                            "Menyajikan data statistik terbaru.",
+                            "Mengulang dan memperkuat kembali Tesis."
+                        ],
+                        "answer": "Mengulang dan memperkuat kembali Tesis."
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Apa perbedaan mendasar antara Kalimat Faktual dan Kalimat Opini dalam teks argumentasi?",
+                        "options": [
+                            "Fakta menggunakan bahasa formal, Opini menggunakan bahasa santai.",
+                            "Fakta mengandung emosi, Opini mengandung data.",
+                            "Fakta dapat dibuktikan kebenarannya, Opini berupa pendapat yang belum tentu benar.",
+                            "Fakta selalu terletak di awal teks, Opini selalu di akhir."
+                        ],
+                        "answer": "Fakta dapat dibuktikan kebenarannya, Opini berupa pendapat yang belum tentu benar."
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "Manakah pernyataan di bawah ini yang merupakan <b>opini**?",
+                        "options": [
+                            "Jumlah penduduk Indonesia mencapai 270 juta jiwa.",
+                            "Ibu Kota Negara (IKN) terletak di Kalimantan Timur.",
+                            "Penyelesaian masalah banjir ini merupakan tanggung jawab semua pihak.",
+                            "Peresmian MRT fase 1 dilakukan pada Maret 2019."
+                        ],
+                        "answer": "Penyelesaian masalah banjir ini merupakan tanggung jawab semua pihak."
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "Penggunaan istilah teknis atau ilmiah dalam teks argumentasi bertujuan untuk...",
+                        "options": [
+                            "Membingungkan pembaca.",
+                            "Mengurangi kredibilitas penulis.",
+                            "Meningkatkan otoritas dan kredibilitas argumen.",
+                            "Membuat teks lebih panjang."
+                        ],
+                        "answer": "Meningkatkan otoritas dan kredibilitas argumen."
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "Jika sebuah teks argumentasi tidak memiliki bagian Argumen, maka teks tersebut cenderung menjadi...",
+                        "options": [
+                            "Teks prosedur.",
+                            "Teks berita.",
+                            "Teks deskripsi.",
+                            "Teks eksposisi (yang hanya memaparkan ide tanpa pembuktian)."
+                        ],
+                        "answer": "Teks eksposisi (yang hanya memaparkan ide tanpa pembuktian)."
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Sifat objektivitas dalam teks argumentasi mengacu pada...",
+                        "options": [
+                            "Cara penyampaian yang subjektif.",
+                            "Penekanan pada perasaan pembaca.",
+                            "Penggunaan bukti dan data tanpa dipengaruhi kepentingan pribadi.",
+                            "Penolakan terhadap semua fakta yang ada."
+                        ],
+                        "answer": "Penggunaan bukti dan data tanpa dipengaruhi kepentingan pribadi."
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "Kalimat yang menggunakan verba mental adalah...",
+                        "options": [
+                            "Ayah <b>memasak</b> nasi.",
+                            "Para siswa <b>melakukan</b> demonstrasi.",
+                            "Kami <b>beranggapan</b> bahwa solusi ini kurang efektif.",
+                            "Pohon itu <b>tumbang</b> tadi malam."
+                        ],
+                        "answer": "Kami <b>beranggapan</b> bahwa solusi ini kurang efektif."
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "Salah satu ciri kebahasaan yang TIDAK lazim digunakan secara dominan dalam teks argumentasi adalah...",
+                        "options": [
+                            "Konjungsi Kausalitas.",
+                            "Verba Mental.",
+                            "Modalitas.",
+                            "Kata Ganti Orang Pertama 'Aku'."
+                        ],
+                        "answer": "Kata Ganti Orang Pertama 'Aku'."
+                    }
+                ]
+            },
+            "bab_2": {
+                "title": "Teks Berita (Penyajian Informasi)",
+                "summary": "<p><strong>Teks Berita</strong> adalah laporan peristiwa atau kejadian faktual yang bernilai aktual (terkini), penting, dan menarik untuk diketahui publik.</p> <p><strong>Struktur Teks Berita (Piramida Terbalik):</strong></p> <ul><li><strong>Kepala Berita (Lead):</strong> Bagian paling penting, memuat unsur 5W+1H (What, Who, Where, When, Why, How).</li><li><strong>Tubuh Berita:</strong> Penjelasan detail dan pendukung dari peristiwa.</li><li><strong>Ekor Berita:</strong> Informasi tambahan yang kurang penting (dapat dihilangkan tanpa mengubah makna utama).</li></ul> <p><strong>Kaidah Kebahasaan:</strong> Menggunakan verba pewarta, konjungsi temporal, keterangan waktu dan tempat, serta bahasa baku.</p>",
+                "image": "",
+                "questions": [
+                    {
+                        "id": 1,
+                        "image": "",
+                        "question": "Ciri utama dari teks berita yang membedakannya dari teks lain adalah isinya harus bersifat...",
+                        "options": [
+                            "Imajinatif dan menghibur.",
+                            "Subjektif dan persuasif.",
+                            "Faktual (berdasarkan kejadian nyata) dan aktual (terkini).",
+                            "Bersifat opini dan asumsi."
+                        ],
+                        "answer": "Faktual (berdasarkan kejadian nyata) dan aktual (terkini)."
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "Model struktur teks berita yang menempatkan informasi paling penting di awal dan informasi kurang penting di akhir disebut...",
+                        "options": [
+                            "Pola Kronologis",
+                            "Pola Induktif",
+                            "Piramida Terbalik",
+                            "Struktur Argumen"
+                        ],
+                        "answer": "Piramida Terbalik"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Bagian terpenting dari struktur teks berita yang memuat sebagian besar unsur 5W+1H adalah...",
+                        "options": [
+                            "Ekor Berita",
+                            "Tubuh Berita",
+                            "Kepala Berita (Lead)",
+                            "Latar Belakang Peristiwa"
+                        ],
+                        "answer": "Kepala Berita (Lead)"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "Unsur 5W+1H yang menjelaskan mengenai pihak yang terlibat dalam suatu peristiwa adalah...",
+                        "options": [
+                            "What",
+                            "When",
+                            "Where",
+                            "Who"
+                        ],
+                        "answer": "Who"
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Unsur 'Why' (Mengapa) dalam teks berita biasanya ditemukan pada bagian...",
+                        "options": [
+                            "Ekor berita.",
+                            "Penegasan ulang.",
+                            "Tesis.",
+                            "Tubuh berita, sebagai pendukung detail Kepala Berita."
+                        ],
+                        "answer": "Tubuh berita, sebagai pendukung detail Kepala Berita."
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "Verba yang digunakan untuk menandai adanya percakapan atau kutipan langsung dari sumber berita (misal: mengatakan, menuturkan) disebut...",
+                        "options": [
+                            "Verba Mental",
+                            "Verba Material",
+                            "Verba Pewarta",
+                            "Verba Pasif"
+                        ],
+                        "answer": "Verba Pewarta"
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "Dalam teks berita, konjungsi yang digunakan untuk menata urutan waktu kejadian (misal: kemudian, lalu, setelah) disebut...",
+                        "options": [
+                            "Konjungsi Kausalitas",
+                            "Konjungsi Penegasan",
+                            "Konjungsi Temporal (Waktu)",
+                            "Konjungsi Pertentangan"
+                        ],
+                        "answer": "Konjungsi Temporal (Waktu)"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "Sebuah berita harus menggunakan bahasa yang <b>baku</b> dan <b>jelas**. Penggunaan bahasa baku bertujuan untuk...",
+                        "options": [
+                            "Memperpanjang isi berita.",
+                            "Menarik perhatian pembaca remaja.",
+                            "Menjaga netralitas dan kredibilitas informasi.",
+                            "Menciptakan gaya bahasa yang indah."
+                        ],
+                        "answer": "Menjaga netralitas dan kredibilitas informasi."
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "Teks berita harus memenuhi kriteria 'Aktual', yang berarti...",
+                        "options": [
+                            "Disukai banyak orang.",
+                            "Dapat dibuktikan kebenarannya.",
+                            "Berhubungan dengan kejadian masa lampau.",
+                            "Peristiwanya baru saja terjadi atau sedang terjadi."
+                        ],
+                        "answer": "Peristiwanya baru saja terjadi atau sedang terjadi."
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "Jika bagian Ekor Berita dihilangkan, hal tersebut...",
+                        "options": [
+                            "Mengubah makna utama keseluruhan berita.",
+                            "Membuat berita menjadi tidak faktual.",
+                            "Tidak terlalu memengaruhi pemahaman inti berita.",
+                            "Mengubah struktur menjadi teks argumentasi."
+                        ],
+                        "answer": "Tidak terlalu memengaruhi pemahaman inti berita."
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "Prinsip objektivitas dalam teks berita mengharuskan penulis untuk...",
+                        "options": [
+                            "Mencampurkan fakta dengan opini pribadi.",
+                            "Memihak salah satu sumber informasi.",
+                            "Menyajikan fakta sebagaimana adanya tanpa bias.",
+                            "Hanya menyajikan detail emosional peristiwa."
+                        ],
+                        "answer": "Menyajikan fakta sebagaimana adanya tanpa bias."
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "Kalimat yang menggunakan <b>keterangan waktu</b> dalam teks berita adalah...",
+                        "options": [
+                            "Ia berjalan dengan cepat.",
+                            "Mereka menemukan bukti di dalam kotak.",
+                            "Pemberlakuan kebijakan dimulai <b>sejak 1 Januari 2025**.",
+                            "Warga menolak usulan tersebut dengan keras."
+                        ],
+                        "answer": "Pemberlakuan kebijakan dimulai <b>sejak 1 Januari 2025**."
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "Sebuah berita yang baik dan lengkap harus memuat minimal berapa unsur 5W+1H pada Kepala Berita?",
+                        "options": [
+                            "2 unsur",
+                            "4 unsur",
+                            "Semua 6 unsur (5W+1H)",
+                            "Hanya unsur 'What' dan 'Who'"
+                        ],
+                        "answer": "Semua 6 unsur (5W+1H)"
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Dalam konteks berita, istilah <b>'Teras Berita'</b> memiliki arti yang sama dengan...",
+                        "options": [
+                            "Ekor Berita",
+                            "Tubuh Berita",
+                            "Sumber Berita",
+                            "Kepala Berita (Lead)"
+                        ],
+                        "answer": "Kepala Berita (Lead)"
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "Fungsi utama kutipan langsung yang berasal dari narasumber dalam teks berita adalah...",
+                        "options": [
+                            "Membuat teks lebih panjang.",
+                            "Menambahkan opini penulis.",
+                            "Menguatkan keabsahan informasi dan memberikan perspektif.",
+                            "Mengubah format teks menjadi dialog."
+                        ],
+                        "answer": "Menguatkan keabsahan informasi dan memberikan perspektif."
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "Kaidah kebahasaan yang menekankan penggunaan kalimat pasif (misal: 'korban <b>ditemukan**') bertujuan untuk...",
+                        "options": [
+                            "Menarik perhatian pembaca.",
+                            "Menjaga fokus pada peristiwa, bukan pada pelaku.",
+                            "Mempersulit pemahaman.",
+                            "Memenuhi syarat verba mental."
+                        ],
+                        "answer": "Menjaga fokus pada peristiwa, bukan pada pelaku."
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "Jika suatu peristiwa terjadi secara berurutan, maka teks berita sebaiknya menggunakan kaidah kebahasaan...",
+                        "options": [
+                            "Keterangan cara.",
+                            "Konjungsi argumentatif.",
+                            "Konjungsi temporal (waktu).",
+                            "Majas perbandingan."
+                        ],
+                        "answer": "Konjungsi temporal (waktu)."
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Kalimat 'Pihak kepolisian <b>menyatakan</b> bahwa pelaku telah ditangkap' menggunakan verba...",
+                        "options": [
+                            "Material",
+                            "Mental",
+                            "Pewarta",
+                            "Pasif"
+                        ],
+                        "answer": "Pewarta"
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "Sifat 'Penting' dalam teks berita mengacu pada...",
+                        "options": [
+                            "Kecepatan penulisan.",
+                            "Dampak peristiwa terhadap kehidupan banyak orang.",
+                            "Kemampuan peristiwa untuk menghibur.",
+                            "Unsur keindahan bahasa yang digunakan."
+                        ],
+                        "answer": "Dampak peristiwa terhadap kehidupan banyak orang."
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "Apa fungsi utama dari kutipan langsung (kalimat yang diapit tanda petik) dalam tubuh berita?",
+                        "options": [
+                            "Menyatakan opini penulis.",
+                            "Menyajikan interpretasi penulis tentang kejadian.",
+                            "Menyampaikan pernyataan asli dari narasumber.",
+                            "Menguatkan Tesis di awal."
+                        ],
+                        "answer": "Menyampaikan pernyataan asli dari narasumber."
+                    }
+                ]
+            },
+            "bab_3": {
+                "title": "Cerita Pendek (Cerpen)",
+                "summary": "<p><strong>Cerita Pendek (Cerpen)</strong> adalah prosa fiksi yang menceritakan satu peristiwa tunggal yang dialami tokoh, memiliki jumlah kata terbatas, dan dapat selesai dibaca dalam sekali duduk.</p> <p><strong>Unsur Intrinsik (Dalam):</strong></p> <ul><li><strong>Tema:</strong> Ide pokok cerita.</li><li><strong>Alur/Plot:</strong> Urutan peristiwa (perkenalan, konflik, klimaks, resolusi).</li><li><strong>Tokoh dan Penokohan:</strong> Pelaku cerita dan wataknya.</li><li><strong>Latar:</strong> Tempat, waktu, dan suasana.</li><li><strong>Sudut Pandang:</strong> Posisi pencerita (Orang Pertama/Ketiga).</li><li><strong>Amanat:</strong> Pesan moral cerita.</li></ul> <p><strong>Unsur Ekstrinsik (Luar):</strong> Latar belakang penulis, nilai-nilai, dan kondisi masyarakat saat cerita dibuat.</p>",
+                "image": "",
+                "questions": [
+                    {
+                        "id": 1,
+                        "image": "",
+                        "question": "Salah satu ciri utama cerita pendek yang membedakannya dari novel adalah...",
+                        "options": [
+                            "Fokus pada banyak konflik dan tokoh yang kompleks.",
+                            "Jumlah kata yang sangat banyak dan tebal.",
+                            "Menceritakan satu peristiwa tunggal dan dapat selesai dibaca sekali duduk.",
+                            "Selalu menggunakan alur mundur."
+                        ],
+                        "answer": "Menceritakan satu peristiwa tunggal dan dapat selesai dibaca sekali duduk."
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "Ide dasar atau gagasan pokok yang menjiwai keseluruhan isi cerita pendek disebut...",
+                        "options": [
+                            "Alur",
+                            "Amanat",
+                            "Tokoh",
+                            "Tema"
+                        ],
+                        "answer": "Tema"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Urutan kejadian atau peristiwa yang membentuk jalan cerita dari awal hingga akhir disebut...",
+                        "options": [
+                            "Latar",
+                            "Amanat",
+                            "Alur (Plot)",
+                            "Sudut Pandang"
+                        ],
+                        "answer": "Alur (Plot)"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "Tahapan alur yang merupakan puncak ketegangan atau masalah dalam cerita disebut...",
+                        "options": [
+                            "Perkenalan (Eksposisi)",
+                            "Penyelesaian (Resolusi)",
+                            "Klimaks",
+                            "Konflik Awal (Rising Action)"
+                        ],
+                        "answer": "Klimaks"
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Cara pengarang menampilkan watak atau karakter tokoh (misal: melalui dialog, tindakan, atau deskripsi langsung) disebut...",
+                        "options": [
+                            "Latar",
+                            "Sudut Pandang",
+                            "Penokohan (Karakterisasi)",
+                            "Amanat"
+                        ],
+                        "answer": "Penokohan (Karakterisasi)"
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "Dalam penokohan, tokoh yang mengalami perubahan atau perkembangan watak dari awal hingga akhir cerita disebut...",
+                        "options": [
+                            "Tokoh Statis",
+                            "Tokoh Sampingan",
+                            "Tokoh Antagonis",
+                            "Tokoh Dinamis"
+                        ],
+                        "answer": "Tokoh Dinamis"
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "Unsur Cerpen yang meliputi tempat, waktu, dan suasana terjadinya peristiwa adalah...",
+                        "options": [
+                            "Amanat",
+                            "Penokohan",
+                            "Sudut Pandang",
+                            "Latar (Setting)"
+                        ],
+                        "answer": "Latar (Setting)"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "Jika pencerita menggunakan kata ganti 'Aku' atau 'Saya' dalam cerita, maka jenis sudut pandang yang digunakan adalah...",
+                        "options": [
+                            "Sudut Pandang Orang Ketiga Serba Tahu",
+                            "Sudut Pandang Orang Ketiga Pengamat",
+                            "Sudut Pandang Campuran",
+                            "Sudut Pandang Orang Pertama"
+                        ],
+                        "answer": "Sudut Pandang Orang Pertama"
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "Sudut pandang di mana pencerita mengetahui segala hal tentang tokoh, termasuk pikiran dan perasaannya, disebut...",
+                        "options": [
+                            "Orang Pertama Pelaku Utama",
+                            "Orang Ketiga Terbatas",
+                            "Orang Ketiga Serba Tahu",
+                            "Orang Pertama Pelaku Sampingan"
+                        ],
+                        "answer": "Orang Ketiga Serba Tahu"
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "Pesan moral atau ajaran yang ingin disampaikan pengarang kepada pembaca melalui ceritanya disebut...",
+                        "options": [
+                            "Tema",
+                            "Latar",
+                            "Alur",
+                            "Amanat"
+                        ],
+                        "answer": "Amanat"
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "Bagian struktur cerpen yang berfungsi memperkenalkan tokoh, latar, dan konflik awal adalah...",
+                        "options": [
+                            "Klimaks",
+                            "Penyelesaian",
+                            "Orientasi (Perkenalan)",
+                            "Kodasi"
+                        ],
+                        "answer": "Orientasi (Perkenalan)"
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "Unsur yang terletak di luar cerita tetapi memengaruhi isi cerita, seperti latar belakang pendidikan penulis atau kondisi sosial masyarakat, disebut...",
+                        "options": [
+                            "Unsur Intrinsik",
+                            "Unsur Struktural",
+                            "Unsur Kebahasaan",
+                            "Unsur Ekstrinsik"
+                        ],
+                        "answer": "Unsur Ekstrinsik"
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "Dalam alur, bagian yang menunjukkan penurunan masalah hingga menuju penyelesaian disebut...",
+                        "options": [
+                            "Eksposisi",
+                            "Klimaks",
+                            "Reaksi (Falling Action)",
+                            "Resolusi"
+                        ],
+                        "answer": "Reaksi (Falling Action)"
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Cerpen menggunakan gaya bahasa yang padat dan efektif. Hal ini disebabkan oleh...",
+                        "options": [
+                            "Cerpen harus disajikan dalam bentuk dialog.",
+                            "Cerpen bertujuan untuk menghibur semua pembaca.",
+                            "Keterbatasan ruang lingkup cerita (fokus pada satu peristiwa).",
+                            "Cerpen selalu bertema sedih."
+                        ],
+                        "answer": "Keterbatasan ruang lingkup cerita (fokus pada satu peristiwa)."
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "Pernyataan 'Di sebuah desa yang sunyi, pada senja hari' mengacu pada unsur intrinsik...",
+                        "options": [
+                            "Tokoh",
+                            "Amanat",
+                            "Latar",
+                            "Tema"
+                        ],
+                        "answer": "Latar"
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "Pola alur yang menyajikan peristiwa secara tidak urut, yaitu menceritakan masa lalu di tengah cerita, disebut...",
+                        "options": [
+                            "Alur Maju",
+                            "Alur Mundur (Flashback)",
+                            "Alur Runtun",
+                            "Alur Lurus"
+                        ],
+                        "answer": "Alur Mundur (Flashback)"
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "Tokoh yang bertentangan dengan tokoh utama atau menciptakan konflik disebut...",
+                        "options": [
+                            "Tokoh Protagonis",
+                            "Tokoh Statis",
+                            "Tokoh Tritagonis",
+                            "Tokoh Antagonis"
+                        ],
+                        "answer": "Tokoh Antagonis"
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Dalam kaidah kebahasaan cerpen, sering digunakan kata sifat deskriptif (adjektiva) untuk...",
+                        "options": [
+                            "Menghubungkan antar kalimat.",
+                            "Menggambarkan latar dan penokohan.",
+                            "Menyampaikan dialog tokoh.",
+                            "Menggantikan nama tokoh."
+                        ],
+                        "answer": "Menggambarkan latar dan penokohan."
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "Berikut ini adalah ciri kebahasaan yang lazim digunakan dalam cerpen, <b>kecuali**...",
+                        "options": [
+                            "Penggunaan dialog.",
+                            "Penggunaan majas (gaya bahasa).",
+                            "Penggunaan kata benda deskriptif.",
+                            "Bahasa yang sangat formal dan kaku (seperti teks ilmiah)."
+                        ],
+                        "answer": "Bahasa yang sangat formal dan kaku (seperti teks ilmiah)."
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "Tujuan utama penulis membuat cerpen adalah...",
+                        "options": [
+                            "Meyakinkan pembaca tentang suatu pendapat.",
+                            "Menyampaikan laporan faktual suatu peristiwa.",
+                            "Menciptakan kesan tunggal yang mendalam (menggugah perasaan).",
+                            "Memberikan petunjuk langkah-langkah."
+                        ],
+                        "answer": "Menciptakan kesan tunggal yang mendalam (menggugah perasaan)."
                     }
                 ]
             }
@@ -97,20 +1570,743 @@
     "bing": {
         "semester_1": {
             "bab_1": {
-                "title": "Legend",
-                "summary": "<p><strong>Narrative Text (Legend)</strong>: Cerita rakyat yang dianggap benar-benar terjadi oleh yang punya cerita.</p><p>Structure: Orientation, Complication, Resolution.</p>",
-                "image": "https://cdn-icons-png.flaticon.com/512/3662/3662503.png",
+                "title": "Using Social Media",
+                "summary": "<p><strong>Social Media</strong> refers to interactive digital platforms that enable the creation and sharing of content, ideas, and information.</p> <p><strong>Key Topics:</strong></p> <ul><li><strong>Benefits:</strong> Global communication, news access, and networking.</li><li><strong>Drawbacks:</strong> Addiction, cyberbullying, and privacy invasion.</li><li><strong>Digital Footprint:</strong> The trail of data left by a person's online activities.</li><li><strong>Netiquette:</strong> Rules of good behavior when interacting online.</li></ul> <p><strong>Language Focus:</strong> Expressing opinions, agreement, and disagreement (e.g., I strongly believe, I couldn't agree more, I beg to differ).</p>",
+                "image": "",
                 "questions": [
                     {
                         "id": 1,
-                        "question": "Structure of Narrative Text is...",
+                        "image": "",
+                        "question": "The primary purpose of social media platforms is to facilitate...",
                         "options": [
-                            "Goal, Materials, Steps",
-                            "Orientation, Complication, Resolution",
-                            "Thesis, Arguments, Reiteration",
-                            "Identification, Description"
+                            "One-way information delivery.",
+                            "Traditional letter writing.",
+                            "Interactive communication and content sharing.",
+                            "Physical face-to-face meetings."
                         ],
-                        "answer": "Orientation, Complication, Resolution"
+                        "answer": "Interactive communication and content sharing."
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "Which term describes the data trail a user leaves behind from their online activity?",
+                        "options": [
+                            "Internet History",
+                            "Digital Download",
+                            "Server Log",
+                            "Digital Footprint"
+                        ],
+                        "answer": "Digital Footprint"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Which of the following is a potential <b>benefit</b> of social media usage?",
+                        "options": [
+                            "Cyberbullying",
+                            "Reduced physical activity",
+                            "Global networking and information access",
+                            "Privacy risks"
+                        ],
+                        "answer": "Global networking and information access"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "When you share misleading or false information online, you are contributing to the spread of...",
+                        "options": [
+                            "Factual news",
+                            "Viral marketing",
+                            "Misinformation (Hoax)",
+                            "Digital literacy"
+                        ],
+                        "answer": "Misinformation (Hoax)"
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "The term <b>'Netiquette'</b> refers to...",
+                        "options": [
+                            "The speed of the internet connection.",
+                            "The legal contracts of social media.",
+                            "The etiquette or proper manners for online communication.",
+                            "The design layout of a website."
+                        ],
+                        "answer": "The etiquette or proper manners for online communication."
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "A negative behavior involving the electronic harassment of someone, typically by sending mean or threatening messages, is called...",
+                        "options": [
+                            "Digital Detox",
+                            "Trolling",
+                            "Cyberbullying",
+                            "Phishing"
+                        ],
+                        "answer": "Cyberbullying"
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "What is the best expression to show <b>strong agreement</b> with an opinion?",
+                        "options": [
+                            "I couldn't disagree more.",
+                            "I beg to differ.",
+                            "I couldn't agree more.",
+                            "That's partly true."
+                        ],
+                        "answer": "I couldn't agree more."
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "The practice of excessively checking social media feeds, leading to negative life consequences, is often referred to as...",
+                        "options": [
+                            "Digital Marketing",
+                            "Online Literacy",
+                            "Social Media Addiction",
+                            "Information Overload"
+                        ],
+                        "answer": "Social Media Addiction"
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "A firewall is primarily used to enhance digital...",
+                        "options": [
+                            "Efficiency",
+                            "Privacy",
+                            "Security",
+                            "Accessibility"
+                        ],
+                        "answer": "Security"
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "X: 'Posting personal details online is risky.' Y: '______ I think it's necessary for networking.'",
+                        "options": [
+                            "I completely agree.",
+                            "Absolutely.",
+                            "I couldn't agree more.",
+                            "I don't think so."
+                        ],
+                        "answer": "I don't think so."
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "The phenomenon where individuals only encounter information that confirms their existing beliefs is known as the...",
+                        "options": [
+                            "Digital Divide",
+                            "Confirmation Bias (Filter Bubble)",
+                            "Social Network Effect",
+                            "Echo Chamber"
+                        ],
+                        "answer": "Echo Chamber"
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "The act of using the Internet to commit fraud or steal personal information is categorized as...",
+                        "options": [
+                            "Blogging",
+                            "Streaming",
+                            "Cybercrime",
+                            "Digital Marketing"
+                        ],
+                        "answer": "Cybercrime"
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "What should users do to maintain a good <b>digital footprint**?",
+                        "options": [
+                            "Post everything instantly.",
+                            "Share private passwords.",
+                            "Be mindful and responsible about shared content.",
+                            "Only follow celebrities."
+                        ],
+                        "answer": "Be mindful and responsible about shared content."
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Expression: 'I see your point, but I still believe social media should be regulated.' This shows...",
+                        "options": [
+                            "Total agreement",
+                            "Complete rejection",
+                            "Partial agreement followed by disagreement",
+                            "Lack of opinion"
+                        ],
+                        "answer": "Partial agreement followed by disagreement"
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "The term for a person who frequently initiates arguments or disrupts discussions online is a(n)...",
+                        "options": [
+                            "Blogger",
+                            "Influencer",
+                            "Moderator",
+                            "Internet Troll"
+                        ],
+                        "answer": "Internet Troll"
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "When giving feedback online, <b>Netiquette</b> suggests you should avoid writing in <b>ALL CAPS</b> because it is perceived as...",
+                        "options": [
+                            "Being polite",
+                            "Whispering",
+                            "Yelling or shouting",
+                            "Being professional"
+                        ],
+                        "answer": "Yelling or shouting"
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "The unauthorized publication of someone else's personal data or images is a violation of their...",
+                        "options": [
+                            "Copyright",
+                            "Accessibility",
+                            "Privacy",
+                            "Freedom of Speech"
+                        ],
+                        "answer": "Privacy"
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Which verb is used to show a strong belief or conviction about something?",
+                        "options": [
+                            "Walk",
+                            "Suggest",
+                            "Believe",
+                            "Run"
+                        ],
+                        "answer": "Believe"
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "The digital gap between those who have access to technology and the Internet and those who do not is called the...",
+                        "options": [
+                            "Social Network",
+                            "Digital Divide",
+                            "Global Market",
+                            "Information Age"
+                        ],
+                        "answer": "Digital Divide"
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "The main idea of the chapter <b>'Using Social Media'</b> is likely centered around...",
+                        "options": [
+                            "How to code an application.",
+                            "The history of computers.",
+                            "Analyzing the impact and responsible use of digital communication tools.",
+                            "Writing short fictional stories."
+                        ],
+                        "answer": "Analyzing the impact and responsible use of digital communication tools."
+                    }
+                ]
+            },
+            "bab_2": {
+                "title": "A Clean and Well-kept Place (Describing Places)",
+                "summary": "<p>This chapter focuses on vocabulary and expressions used to describe the <b>cleanliness, maintenance, and overall condition</b> of places (rooms, houses, public areas).</p> <p><strong>Key Vocabulary:</strong></p> <ul><li><strong>Cleanliness:</strong> *Spotless, hygienic, sanitized, tidy.*</li><li><strong>Maintenance:</strong> *Well-maintained, renovated, dilapidated, run-down.*</li><li><strong>Actions:</strong> *Tidy up, scrub, sweep, vacuum, disinfect.*</li></ul> <p><strong>Language Focus:</strong> Using descriptive adjectives, the Present Simple tense for describing general conditions, and passive voice to emphasize the state of the place (e.g., The floor <b>is swept</b> daily).</p>",
+                "image": "",
+                "questions": [
+                    {
+                        "id": 1,
+                        "image": "",
+                        "question": "Which adjective means extremely clean or without a single stain?",
+                        "options": [
+                            "Dilapidated",
+                            "Messy",
+                            "Dusty",
+                            "Spotless"
+                        ],
+                        "answer": "Spotless"
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "The opposite of 'tidy' is...",
+                        "options": [
+                            "Neat",
+                            "Organized",
+                            "Well-kept",
+                            "Cluttered"
+                        ],
+                        "answer": "Cluttered"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "A place that has been regularly repaired and is in good working order is described as...",
+                        "options": [
+                            "Run-down",
+                            "Abandoned",
+                            "Well-maintained",
+                            "Foul-smelling"
+                        ],
+                        "answer": "Well-maintained"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "The house looked <b>dilapidated</b>; it means the house was...",
+                        "options": [
+                            "Newly built and very modern.",
+                            "In excellent condition.",
+                            "In a state of decay or ruin due to age or neglect.",
+                            "Spotlessly clean."
+                        ],
+                        "answer": "In a state of decay or ruin due to age or neglect."
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Which phrase is used to describe the act of organizing and putting things away?",
+                        "options": [
+                            "Sweep the rug",
+                            "Scrub the sink",
+                            "Tidy up the room",
+                            "Air the laundry"
+                        ],
+                        "answer": "Tidy up the room"
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "The main focus of describing a <b>well-kept</b> place is its...",
+                        "options": [
+                            "Size and location.",
+                            "Cost and furniture.",
+                            "Appearance and condition.",
+                            "Number of occupants."
+                        ],
+                        "answer": "Appearance and condition."
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "If a floor is extremely dirty and requires intense cleaning, you should <b>______</b> it.",
+                        "options": [
+                            "Wipe",
+                            "Dust",
+                            "Scrub",
+                            "Mop"
+                        ],
+                        "answer": "Scrub"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "The living room is always <b>neat and organized**. The word 'neat' is a synonym for...",
+                        "options": [
+                            "Dirty",
+                            "Awkward",
+                            "Disorganized",
+                            "Tidy"
+                        ],
+                        "answer": "Tidy"
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "To emphasize that the cleanliness of the room is a routine action, we use the sentence: 'The windows <b>______</b> every Sunday.'",
+                        "options": [
+                            "will clean",
+                            "cleaned",
+                            "are cleaned",
+                            "clean"
+                        ],
+                        "answer": "are cleaned"
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "Which of these places is most likely to be described as 'hygienic'?",
+                        "options": [
+                            "An abandoned warehouse",
+                            "A dusty attic",
+                            "A hospital operating room",
+                            "A very old garage"
+                        ],
+                        "answer": "A hospital operating room"
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "The adjective <b>'cluttered'</b> suggests that the place is...",
+                        "options": [
+                            "Empty and spacious.",
+                            "Full of objects scattered untidily.",
+                            "Freshly painted.",
+                            "Smelling good."
+                        ],
+                        "answer": "Full of objects scattered untidily."
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "The act of removing dirt and dust from surfaces using a cloth or duster is called...",
+                        "options": [
+                            "Vacuuming",
+                            "Mopping",
+                            "Polishing",
+                            "Dusting"
+                        ],
+                        "answer": "Dusting"
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "If a place is smelly and dirty, we might describe it as...",
+                        "options": [
+                            "Spacious",
+                            "Squeaky-clean",
+                            "Foul",
+                            "Cozy"
+                        ],
+                        "answer": "Foul"
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Which verb best completes the sentence? 'We <b>______</b> the garden every weekend to keep the weeds away.'",
+                        "options": [
+                            "Dust",
+                            "Scrub",
+                            "Maintain",
+                            "Rearrange"
+                        ],
+                        "answer": "Maintain"
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "Using the passive voice, how do you express a rule? 'The tools <b>______</b> immediately after use.'",
+                        "options": [
+                            "put away",
+                            "are put away",
+                            "is putting away",
+                            "was putting away"
+                        ],
+                        "answer": "are put away"
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "The word <b>'renovated'</b> means that the place has been...",
+                        "options": [
+                            "Destroyed completely.",
+                            "Sold to a new owner.",
+                            "Restored and repaired to a better state.",
+                            "Left untouched for years."
+                        ],
+                        "answer": "Restored and repaired to a better state."
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "If a place is 'out of order,' it means...",
+                        "options": [
+                            "It is extremely tidy.",
+                            "It is newly built.",
+                            "It is messy and requires cleaning.",
+                            "It is broken or not functioning."
+                        ],
+                        "answer": "It is broken or not functioning."
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Which descriptive sentence is most effective for a <b>clean</b> place?",
+                        "options": [
+                            "The trash bin is overflowing.",
+                            "Cobwebs covered the ceiling.",
+                            "The air was fresh and the surfaces gleamed.",
+                            "There were clothes piled on the chair."
+                        ],
+                        "answer": "The air was fresh and the surfaces gleamed."
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "The noun form of the adjective 'clean' is...",
+                        "options": [
+                            "Cleaner",
+                            "Cleaning",
+                            "Cleanliness",
+                            "Cleanly"
+                        ],
+                        "answer": "Cleanliness"
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "The phrase 'The kitchen is a mess' is equivalent to...",
+                        "options": [
+                            "The kitchen is very clean.",
+                            "The kitchen is completely organized.",
+                            "The kitchen is tidy and well-kept.",
+                            "The kitchen is dirty and disorganized."
+                        ],
+                        "answer": "The kitchen is dirty and disorganized."
+                    }
+                ]
+            },
+            "bab_3": {
+                "title": "The Importance of Being Healthy",
+                "summary": "<p>This chapter focuses on topics related to <b>health and well-being</b>, including proper nutrition, exercise, mental health, and healthy habits. The language focus often involves expressions of suggestion and advice (e.g., *should, ought to, had better*) and health-related vocabulary.</p> <p><strong>Key Concepts:</strong></p> <ul><li><strong>Nutrition:</strong> Balanced diet, vitamins, minerals, protein.</li><li><strong>Fitness:</strong> Regular exercise, cardio, strength training.</li><li><strong>Well-being:</strong> Stress management, adequate sleep, mental health awareness.</li></ul> <p><strong>Language Focus:</strong> Giving suggestions and recommendations (e.g., <b>You should exercise more. You ought to eat less sugar.</b>).</p>",
+                "image": "",
+                "questions": [
+                    {
+                        "id": 1,
+                        "image": "",
+                        "question": "Which sentence correctly uses the modal verb for giving strong advice?",
+                        "options": [
+                            "You could stop smoking.",
+                            "You must to stop smoking.",
+                            "You should stop smoking immediately.",
+                            "You may stop smoking."
+                        ],
+                        "answer": "You should stop smoking immediately."
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "A <b>balanced diet</b> primarily means consuming the right proportions of...",
+                        "options": [
+                            "Sugar and fat only.",
+                            "Vitamins, minerals, protein, carbohydrates, and fats.",
+                            "Protein and water only.",
+                            "Junk food and soft drinks."
+                        ],
+                        "answer": "Vitamins, minerals, protein, carbohydrates, and fats."
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Lack of adequate sleep can negatively impact a person's...",
+                        "options": [
+                            "Height and shoe size.",
+                            "Cognitive function and mood.",
+                            "Bank account.",
+                            "Hair color."
+                        ],
+                        "answer": "Cognitive function and mood."
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "X: 'I feel stressed and anxious a lot.' Y: 'You <b>ought to</b> ______ a relaxing hobby like yoga.'",
+                        "options": [
+                            "ignore",
+                            "avoid",
+                            "take up",
+                            "put off"
+                        ],
+                        "answer": "take up"
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Which activity is best for improving <b>cardiovascular health**?",
+                        "options": [
+                            "Reading a book.",
+                            "Lifting heavy weights.",
+                            "Running or brisk walking.",
+                            "Sitting for long hours."
+                        ],
+                        "answer": "Running or brisk walking."
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "The term for physical or mental exhaustion caused by overwork or stress is...",
+                        "options": [
+                            "Meditation",
+                            "Burnout",
+                            "Nutrient",
+                            "Flexibility"
+                        ],
+                        "answer": "Burnout"
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "X: 'I have a terrible cold.' Y: 'You <b>had better</b> ______ to the doctor.'",
+                        "options": [
+                            "don't go",
+                            "going",
+                            "go",
+                            "to go"
+                        ],
+                        "answer": "go"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "What is the key benefit of consuming foods rich in <b>fiber**?",
+                        "options": [
+                            "Improving eye sight.",
+                            "Maintaining a healthy digestive system.",
+                            "Boosting hair growth.",
+                            "Increasing muscle mass."
+                        ],
+                        "answer": "Maintaining a healthy digestive system."
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "If you are suffering from <b>dehydration**, you are lacking...",
+                        "options": [
+                            "Vitamins",
+                            "Sleep",
+                            "Water",
+                            "Protein"
+                        ],
+                        "answer": "Water"
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "The opposite of 'sedentary lifestyle' is...",
+                        "options": [
+                            "Active lifestyle",
+                            "Stressful lifestyle",
+                            "Relaxing lifestyle",
+                            "Unhealthy lifestyle"
+                        ],
+                        "answer": "Active lifestyle"
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "Which food group is the body's primary source of <b>energy**?",
+                        "options": [
+                            "Vitamins",
+                            "Carbohydrates",
+                            "Minerals",
+                            "Fats"
+                        ],
+                        "answer": "Carbohydrates"
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "To manage stress effectively, one should practice...",
+                        "options": [
+                            "Oversleeping.",
+                            "Mindfulness and relaxation techniques.",
+                            "Working non-stop.",
+                            "Ignoring problems."
+                        ],
+                        "answer": "Mindfulness and relaxation techniques."
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "The doctor advised the patient, 'You <b>must</b> stop drinking alcohol.' What does 'must' express here?",
+                        "options": [
+                            "Possibility",
+                            "Weak suggestion",
+                            "Strong obligation/necessity",
+                            "Lack of certainty"
+                        ],
+                        "answer": "Strong obligation/necessity"
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Which of the following is a symptom of poor <b>mental health**?",
+                        "options": [
+                            "Clear focus and enthusiasm.",
+                            "Feeling persistently sad or hopeless.",
+                            "Always having energy.",
+                            "Good sleep patterns."
+                        ],
+                        "answer": "Feeling persistently sad or hopeless."
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "The term <b>'immune system'</b> refers to the body's ability to...",
+                        "options": [
+                            "Digest food quickly.",
+                            "Fight off infection and disease.",
+                            "Store large amounts of fat.",
+                            "Sleep deeply for long periods."
+                        ],
+                        "answer": "Fight off infection and disease."
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "If someone is <b>obese**, they have an excessive amount of...",
+                        "options": [
+                            "Muscle",
+                            "Water",
+                            "Body fat",
+                            "Vitamins"
+                        ],
+                        "answer": "Body fat"
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "Which is the most persuasive way to suggest a friend adopt a habit?",
+                        "options": [
+                            "You should start meditating.",
+                            "You can start meditating.",
+                            "You might start meditating.",
+                            "You don't have to start meditating."
+                        ],
+                        "answer": "You should start meditating."
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "A deficiency in <b>iron</b> can lead to the condition known as...",
+                        "options": [
+                            "Insomnia",
+                            "Obesity",
+                            "Anemia",
+                            "Diabetes"
+                        ],
+                        "answer": "Anemia"
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "Which sentence gives a recommendation using 'ought to'?",
+                        "options": [
+                            "She ought to not forget her keys.",
+                            "She ought to remember to take her medicine daily.",
+                            "She ought take her medicine daily.",
+                            "She ought remembering her medicine."
+                        ],
+                        "answer": "She ought to remember to take her medicine daily."
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "The ultimate goal of focusing on <b>The Importance of Being Healthy</b> is to achieve a state of complete physical, mental, and social <b>______**.",
+                        "options": [
+                            "Wealth",
+                            "Well-being",
+                            "Popularity",
+                            "Loneliness"
+                        ],
+                        "answer": "Well-being"
                     }
                 ]
             }
@@ -119,20 +2315,743 @@
     "informatika": {
         "semester_1": {
             "bab_1": {
-                "title": "Informatika dan Keterampilan Generik",
-                "summary": "<p>Pengantar Informatika, bekerja dalam tim, dan komunikasi efektif.</p>",
-                "image": "https://cdn-icons-png.flaticon.com/512/2000/2000535.png",
+                "title": "Informatika dan Pembelajarannya",
+                "summary": "<p><strong>Informatika</strong> adalah disiplin ilmu yang mempelajari tentang data, informasi, dan komputasi serta dampak sosialnya. Pembelajaran Informatika di Kurikulum Merdeka berfokus pada pengembangan kemampuan berpikir komputasional (Computational Thinking) dan literasi digital.</p> <p><strong>Elemen Pembelajaran Utama:</strong></p> <ul><li><strong>Berpikir Komputasional (BK):</strong> Keterampilan memecahkan masalah kompleks dengan prinsip-prinsip ilmu komputer.</li><li><strong>Teknologi Informasi dan Komunikasi (TIK):</strong> Penggunaan perangkat keras dan lunak secara efektif.</li><li><strong>Analisis Data (AD):</strong> Mengumpulkan, memproses, dan menafsirkan data.</li><li><strong>Jaringan Komputer dan Internet (JKI):</strong> Memahami mekanisme koneksi dan keamanan siber.</li></ul>",
+                "image": "",
                 "questions": [
                     {
                         "id": 1,
-                        "question": "Apa itu Informatika?",
+                        "image": "",
+                        "question": "Disiplin ilmu yang mencakup studi tentang perancangan, implementasi, dan dampak sosial sistem komputasi disebut...",
                         "options": [
-                            "Ilmu tentang komputer",
-                            "Ilmu tentang informasi",
-                            "Studi tentang perancangan dan pengembangan sistem komputasi",
-                            "Semua benar"
+                            "Teknologi Industri",
+                            "Sistem Bisnis",
+                            "Informatika",
+                            "Telekomunikasi"
                         ],
-                        "answer": "Studi tentang perancangan dan pengembangan sistem komputasi"
+                        "answer": "Informatika"
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "Kemampuan esensial dalam Informatika yang fokus pada cara memecahkan masalah layaknya seorang ilmuwan komputer adalah...",
+                        "options": [
+                            "Literasi Media",
+                            "Berpikir Filosofis",
+                            "Berpikir Komputasional (Computational Thinking)",
+                            "Berpikir Kreatif"
+                        ],
+                        "answer": "Berpikir Komputasional (Computational Thinking)"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Manakah yang merupakan pilar utama dari Berpikir Komputasional?",
+                        "options": [
+                            "Ekonomi, Sosiologi, Geografi",
+                            "Komunikasi, Negosiasi, Debat",
+                            "Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma",
+                            "Musik, Seni Rupa, Olahraga"
+                        ],
+                        "answer": "Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "Proses memecah masalah kompleks menjadi bagian-bagian kecil yang lebih mudah dikelola disebut...",
+                        "options": [
+                            "Generalisasi",
+                            "Abstraksi",
+                            "Dekomposisi",
+                            "Representasi Data"
+                        ],
+                        "answer": "Dekomposisi"
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Tindakan mengidentifikasi kesamaan atau tren di antara masalah-masalah kecil yang telah dipecah disebut...",
+                        "options": [
+                            "Pengenalan Pola",
+                            "Abstraksi",
+                            "Algoritma",
+                            "Debugging"
+                        ],
+                        "answer": "Pengenalan Pola"
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "Fokus pada informasi penting dan mengabaikan detail yang tidak relevan dalam pemecahan masalah adalah prinsip dari...",
+                        "options": [
+                            "Pengenalan Pola",
+                            "Abstraksi",
+                            "Dekomposisi",
+                            "Implementasi"
+                        ],
+                        "answer": "Abstraksi"
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "Langkah-langkah terperinci dan berurutan yang digunakan untuk memecahkan masalah atau menyelesaikan tugas disebut...",
+                        "options": [
+                            "Pseudocode",
+                            "Diagram Alir",
+                            "Algoritma",
+                            "Abstraksi"
+                        ],
+                        "answer": "Algoritma"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "Literasi digital dalam pembelajaran Informatika mencakup kemampuan untuk...",
+                        "options": [
+                            "Hanya bermain game di komputer.",
+                            "Menggunakan TIK secara aman, etis, dan bertanggung jawab.",
+                            "Menghafal semua nama perangkat keras.",
+                            "Menulis surat formal dengan tangan."
+                        ],
+                        "answer": "Menggunakan TIK secara aman, etis, dan bertanggung jawab."
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "Berikut adalah contoh perangkat keras (hardware) yang penting dalam TIK, <b>kecuali**...",
+                        "options": [
+                            "Monitor",
+                            "Keyboard",
+                            "Sistem Operasi (OS)",
+                            "CPU"
+                        ],
+                        "answer": "Sistem Operasi (OS)"
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "Kemampuan untuk mengidentifikasi dan menilai sumber informasi di internet dari segi kredibilitas termasuk dalam elemen...",
+                        "options": [
+                            "Jaringan Komputer",
+                            "Pemrograman",
+                            "Literasi Digital",
+                            "Sistem Operasi"
+                        ],
+                        "answer": "Literasi Digital"
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "Istilah yang merujuk pada segala sesuatu yang berhubungan dengan data, informasi, dan sistem komputasi secara umum adalah...",
+                        "options": [
+                            "Matematika",
+                            "Kimia Komputasi",
+                            "Sistem Komputer",
+                            "Informatika"
+                        ],
+                        "answer": "Informatika"
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "Dalam konteks Analisis Data, proses mengubah data mentah menjadi informasi yang bermakna disebut...",
+                        "options": [
+                            "Pengumpulan Data",
+                            "Visualisasi Data",
+                            "Pengolahan Data",
+                            "Pencetakan Data"
+                        ],
+                        "answer": "Pengolahan Data"
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "Manakah yang merupakan aspek penting yang dipelajari dalam Jaringan Komputer dan Internet?",
+                        "options": [
+                            "Cara memasak yang efisien.",
+                            "Prinsip keamanan siber (Cybersecurity).",
+                            "Sejarah penemuan roda.",
+                            "Aturan tata bahasa."
+                        ],
+                        "answer": "Prinsip keamanan siber (Cybersecurity)."
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Fungsi utama dari <b>Sistem Operasi</b> (OS) pada perangkat TIK adalah...",
+                        "options": [
+                            "Menyediakan hiburan video.",
+                            "Mengelola perangkat keras dan menyediakan antarmuka bagi pengguna.",
+                            "Mencetak dokumen secara otomatis.",
+                            "Membuat spreadsheet."
+                        ],
+                        "answer": "Mengelola perangkat keras dan menyediakan antarmuka bagi pengguna."
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "Pelanggaran etika digital yang melibatkan pencurian identitas atau informasi pribadi disebut...",
+                        "options": [
+                            "Blogging",
+                            "Phishing",
+                            "Vlogging",
+                            "Streaming"
+                        ],
+                        "answer": "Phishing"
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "Manfaat utama Berpikir Komputasional bagi siswa adalah...",
+                        "options": [
+                            "Hanya berguna untuk menjadi programmer.",
+                            "Meningkatkan kemampuan pemecahan masalah di berbagai disiplin ilmu.",
+                            "Hanya digunakan untuk membuat game.",
+                            "Menggantikan guru di kelas."
+                        ],
+                        "answer": "Meningkatkan kemampuan pemecahan masalah di berbagai disiplin ilmu."
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "Dalam konteks Abstraksi, yang paling sering diabaikan adalah...",
+                        "options": [
+                            "Fitur-fitur penting dari masalah.",
+                            "Sistematisasi pemecahan masalah.",
+                            "Detail yang tidak relevan dengan solusi.",
+                            "Struktur utama dari algoritma."
+                        ],
+                        "answer": "Detail yang tidak relevan dengan solusi."
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Tahap akhir dari Berpikir Komputasional yang melibatkan penulisan kode atau instruksi langkah demi langkah adalah...",
+                        "options": [
+                            "Dekomposisi",
+                            "Pengenalan Pola",
+                            "Implementasi Algoritma",
+                            "Abstraksi"
+                        ],
+                        "answer": "Implementasi Algoritma"
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "Istilah yang digunakan untuk menyebut program jahat yang dirancang untuk merusak sistem komputer adalah...",
+                        "options": [
+                            "Perangkat Lunak Resmi",
+                            "Firewall",
+                            "Virus/Malware",
+                            "Driver"
+                        ],
+                        "answer": "Virus/Malware"
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "Dalam konteks pembelajaran, Informatika bertujuan untuk mempersiapkan siswa menjadi warga negara digital yang...",
+                        "options": [
+                            "Pasif dan Konsumtif.",
+                            "Kreatif, Kritis, dan Bertanggung Jawab.",
+                            "Hanya menguasai perangkat keras.",
+                            "Terisolasi dari teknologi."
+                        ],
+                        "answer": "Kreatif, Kritis, dan Bertanggung Jawab."
+                    }
+                ]
+            },
+            "bab_2": {
+                "title": "Strategi Algoritmik dan Pemrograman",
+                "summary": "<p>Bab ini membahas berbagai <b>strategi atau pendekatan (paradigms)</b> dalam merancang algoritma untuk memecahkan masalah komputasi secara efisien, serta dasar-dasar <b>pemrograman</b> untuk mengimplementasikan algoritma tersebut.</p> <p><strong>Strategi Algoritmik Kunci:</strong></p> <ul><li><strong>Brute Force:</strong> Mencoba semua kemungkinan solusi.</li><li><strong>Divide and Conquer:</strong> Memecah masalah besar menjadi submasalah kecil.</li><li><strong>Greedy:</strong> Memilih opsi terbaik saat itu juga tanpa mempertimbangkan konsekuensi masa depan.</li><li><strong>Dynamic Programming:</strong> Memecah masalah dan menyimpan solusi submasalah.</li></ul> <p><strong>Konsep Pemrograman:</strong> Variabel, tipe data, struktur kontrol (selection/repetition), fungsi, dan efisiensi.</p>",
+                "image": "",
+                "questions": [
+                    {
+                        "id": 1,
+                        "image": "",
+                        "question": "Pendekatan algoritmik yang mencoba semua kombinasi atau solusi yang mungkin untuk menemukan solusi terbaik disebut...",
+                        "options": [
+                            "Divide and Conquer",
+                            "Dynamic Programming",
+                            "Brute Force",
+                            "Greedy"
+                        ],
+                        "answer": "Brute Force"
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "Strategi algoritmik yang memecah masalah besar menjadi beberapa submasalah yang lebih kecil dan independen, menyelesaikan submasalah tersebut, lalu menggabungkannya adalah...",
+                        "options": [
+                            "Brute Force",
+                            "Divide and Conquer",
+                            "Dynamic Programming",
+                            "Backtracking"
+                        ],
+                        "answer": "Divide and Conquer"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Contoh aplikasi dari strategi Divide and Conquer dalam pengurutan data adalah...",
+                        "options": [
+                            "Bubble Sort",
+                            "Insertion Sort",
+                            "Merge Sort",
+                            "Selection Sort"
+                        ],
+                        "answer": "Merge Sort"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "Strategi Greedy (Serakah) bekerja dengan cara...",
+                        "options": [
+                            "Menyelesaikan masalah secara rekursif.",
+                            "Mencoba semua kemungkinan hingga solusi optimal ditemukan.",
+                            "Membuat pilihan yang terlihat terbaik pada setiap langkah tanpa memikirkan solusi akhir global.",
+                            "Menyimpan solusi submasalah untuk digunakan kembali."
+                        ],
+                        "answer": "Membuat pilihan yang terlihat terbaik pada setiap langkah tanpa memikirkan solusi akhir global."
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Dalam konteks pemrograman, <b>Variabel</b> berfungsi untuk...",
+                        "options": [
+                            "Menjalankan perintah secara berurutan.",
+                            "Menyimpan nilai data sementara.",
+                            "Menentukan hasil akhir program.",
+                            "Membuat keputusan logis."
+                        ],
+                        "answer": "Menyimpan nilai data sementara."
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "Tipe data yang hanya dapat menyimpan nilai benar (True) atau salah (False) adalah...",
+                        "options": [
+                            "Integer",
+                            "String",
+                            "Boolean",
+                            "Float"
+                        ],
+                        "answer": "Boolean"
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "Struktur kontrol yang digunakan untuk menjalankan suatu blok kode secara berulang-ulang disebut...",
+                        "options": [
+                            "Selection (Percabangan)",
+                            "Sequence (Urutan)",
+                            "Repetition (Perulangan/Looping)",
+                            "Function (Fungsi)"
+                        ],
+                        "answer": "Repetition (Perulangan/Looping)"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "Contoh dari struktur kontrol Selection (Percabangan) adalah...",
+                        "options": [
+                            "While Loop",
+                            "For Loop",
+                            "If-Else Statement",
+                            "Subroutine"
+                        ],
+                        "answer": "If-Else Statement"
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "Proses mengubah algoritma yang telah dirancang ke dalam bahasa pemrograman yang dapat dimengerti komputer disebut...",
+                        "options": [
+                            "Analisis Algoritma",
+                            "Dekomposisi",
+                            "Encoding",
+                            "Koding (Coding) atau Implementasi"
+                        ],
+                        "answer": "Koding (Coding) atau Implementasi"
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "Strategi algoritmik Dynamic Programming efektif digunakan ketika suatu masalah dapat dipecah menjadi submasalah yang...",
+                        "options": [
+                            "Sama sekali berbeda.",
+                            "Tidak berulang.",
+                            "Saling tumpang tindih (overlapping subproblems).",
+                            "Hanya memiliki satu solusi."
+                        ],
+                        "answer": "Saling tumpang tindih (overlapping subproblems)."
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "Apa yang dimaksud dengan <b>efisiensi waktu</b> dalam algoritma?",
+                        "options": [
+                            "Seberapa cepat programmer menulis kode.",
+                            "Seberapa banyak memori yang digunakan.",
+                            "Seberapa cepat algoritma menyelesaikan tugas seiring bertambahnya ukuran input.",
+                            "Seberapa sedikit baris kode yang ditulis."
+                        ],
+                        "answer": "Seberapa cepat algoritma menyelesaikan tugas seiring bertambahnya ukuran input."
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "Dalam bahasa pemrograman, blok kode yang dirancang untuk melakukan tugas spesifik yang dapat dipanggil berkali-kali adalah...",
+                        "options": [
+                            "Variabel Global",
+                            "Komentar Kode",
+                            "Fungsi (Function) atau Prosedur",
+                            "Deklarasi Tipe Data"
+                        ],
+                        "answer": "Fungsi (Function) atau Prosedur"
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "Kesalahan dalam sintaks atau tata bahasa penulisan kode program disebut...",
+                        "options": [
+                            "Logical Error",
+                            "Runtime Error",
+                            "Syntax Error",
+                            "Debugging"
+                        ],
+                        "answer": "Syntax Error"
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Jika suatu algoritma memilih rute terpendek di setiap persimpangan tanpa melihat keseluruhan peta, strategi yang digunakan adalah...",
+                        "options": [
+                            "Divide and Conquer",
+                            "Brute Force",
+                            "Greedy",
+                            "Dynamic Programming"
+                        ],
+                        "answer": "Greedy"
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "Tipe data <b>String</b> digunakan untuk menyimpan...",
+                        "options": [
+                            "Angka desimal.",
+                            "Nilai benar/salah.",
+                            "Karakter dan teks.",
+                            "Bilangan bulat."
+                        ],
+                        "answer": "Karakter dan teks."
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "Manakah yang merupakan tujuan utama dari analisis algoritma?",
+                        "options": [
+                            "Menentukan bahasa pemrograman yang akan digunakan.",
+                            "Mengukur efisiensi (waktu dan ruang) dari suatu algoritma.",
+                            "Memperindah tampilan program.",
+                            "Mengganti semua variabel dengan konstanta."
+                        ],
+                        "answer": "Mengukur efisiensi (waktu dan ruang) dari suatu algoritma."
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "Dalam konteks pemrograman, <b>Array</b> (larik) adalah struktur data yang digunakan untuk...",
+                        "options": [
+                            "Menyimpan satu nilai saja.",
+                            "Menyimpan nilai dengan tipe data yang berbeda-beda.",
+                            "Menyimpan koleksi elemen dengan tipe data sejenis.",
+                            "Menjalankan perulangan."
+                        ],
+                        "answer": "Menyimpan koleksi elemen dengan tipe data sejenis."
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Proses menemukan dan memperbaiki kesalahan (bugs) dalam kode program disebut...",
+                        "options": [
+                            "Compiling",
+                            "Executing",
+                            "Debugging",
+                            "Initializing"
+                        ],
+                        "answer": "Debugging"
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "Manakah dari strategi berikut yang paling tidak efisien untuk menyelesaikan masalah yang sangat kompleks?",
+                        "options": [
+                            "Dynamic Programming",
+                            "Brute Force",
+                            "Divide and Conquer",
+                            "Greedy"
+                        ],
+                        "answer": "Brute Force"
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "Simbol dalam flowchart yang melambangkan proses pengambilan keputusan atau percabangan adalah...",
+                        "options": [
+                            "Persegi panjang (Rectangle)",
+                            "Oval",
+                            "Jajar genjang (Parallelogram)",
+                            "Belah ketupat (Diamond)"
+                        ],
+                        "answer": "Belah ketupat (Diamond)"
+                    }
+                ]
+            },
+            "bab_3": {
+                "title": "Berpikir Kritis dan Dampak Sosial (Teknologi Informasi)",
+                "summary": "<p>Bab ini membahas pentingnya <b>Berpikir Kritis</b> dalam menghadapi arus informasi digital yang masif dan dampaknya terhadap masyarakat. Berpikir kritis adalah kemampuan menganalisis fakta, membentuk penilaian, dan mengevaluasi informasi secara logis dan objektif.</p> <p><strong>Isu Dampak Sosial Kunci:</strong></p> <ul><li><strong>Hoaks dan Misinformasi:</strong> Informasi palsu atau menyesatkan.</li><li><strong>Keamanan Siber:</strong> Perlindungan terhadap sistem dan data dari serangan digital.</li><li><strong>Etika Digital:</strong> Norma dan perilaku yang benar saat menggunakan teknologi.</li><li><strong>Hak Cipta:</strong> Perlindungan kekayaan intelektual dalam bentuk digital.</li></ul> <p><strong>Strategi:</strong> Memverifikasi sumber, membedakan fakta dan opini, dan mengenali bias.</p>",
+                "image": "",
+                "questions": [
+                    {
+                        "id": 1,
+                        "image": "",
+                        "question": "Apa inti dari kemampuan <b>Berpikir Kritis<b> dalam konteks TIK?",
+                        "options": [
+                            "Hanya menerima informasi yang populer di media sosial.",
+                            "Kemampuan untuk menganalisis, mengevaluasi, dan membentuk penilaian rasional terhadap informasi.",
+                            "Menghafal semua istilah teknologi baru.",
+                            "Menciptakan sebanyak mungkin konten digital."
+                        ],
+                        "answer": "Kemampuan untuk menganalisis, mengevaluasi, dan membentuk penilaian rasional terhadap informasi."
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "question": "Istilah yang merujuk pada informasi yang <b>sengaja</b> dibuat salah untuk tujuan menyesatkan atau keuntungan finansial/politik adalah...",
+                        "options": [
+                            "Fakta",
+                            "Misinformasi",
+                            "Disinformasi",
+                            "Opini"
+                        ],
+                        "answer": "Disinformasi"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "question": "Langkah pertama yang harus dilakukan saat menerima berita yang meragukan secara digital adalah...",
+                        "options": [
+                            "Segera membagikannya kepada teman dan keluarga.",
+                            "Membuat judul yang lebih menarik.",
+                            "Memverifikasi sumber, kredibilitas, dan tanggal publikasi informasi.",
+                            "Mengabaikannya sepenuhnya."
+                        ],
+                        "answer": "Memverifikasi sumber, kredibilitas, dan tanggal publikasi informasi."
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "question": "Perbedaan utama antara <b>Fakta</b> dan <b>Opini</b> adalah...",
+                        "options": [
+                            "Fakta selalu disukai, Opini selalu ditolak.",
+                            "Fakta dapat dibuktikan kebenarannya, Opini adalah pandangan pribadi yang tidak selalu benar.",
+                            "Fakta selalu ditulis oleh ahli, Opini ditulis oleh non-ahli.",
+                            "Keduanya sama saja dalam konteks digital."
+                        ],
+                        "answer": "Fakta dapat dibuktikan kebenarannya, Opini adalah pandangan pribadi yang tidak selalu benar."
+                    },
+                    {
+                        "id": 5,
+                        "image": "",
+                        "question": "Apa yang dimaksud dengan <b>Filter Bubble</b> dalam konteks media sosial?",
+                        "options": [
+                            "Fitur keamanan untuk memblokir virus.",
+                            "Keadaan di mana algoritma hanya menampilkan informasi yang sesuai dengan pandangan kita.",
+                            "Kelompok orang yang berbagi ide yang sama.",
+                            "Sebuah alat untuk mencari berita yang objektif."
+                        ],
+                        "answer": "Keadaan di mana algoritma hanya menampilkan informasi yang sesuai dengan pandangan kita."
+                    },
+                    {
+                        "id": 6,
+                        "image": "",
+                        "question": "Aspek sosial yang paling mendasar yang diatur oleh <b>Hak Cipta</b> di dunia digital adalah...",
+                        "options": [
+                            "Kecepatan internet.",
+                            "Kepemilikan karya intelektual (seperti foto, tulisan, musik).",
+                            "Penggunaan perangkat keras.",
+                            "Harga jual komputer."
+                        ],
+                        "answer": "Kepemilikan karya intelektual (seperti foto, tulisan, musik)."
+                    },
+                    {
+                        "id": 7,
+                        "image": "",
+                        "question": "Aktivitas mengambil karya orang lain dan menyajikannya sebagai karya sendiri tanpa atribusi yang tepat disebut...",
+                        "options": [
+                            "Sintesis",
+                            "Paraphrasing",
+                            "Plagiarisme",
+                            "Sitasi"
+                        ],
+                        "answer": "Plagiarisme"
+                    },
+                    {
+                        "id": 8,
+                        "image": "",
+                        "question": "Dalam konteks etika digital, <b>'Trolling'</b> merujuk pada perilaku...",
+                        "options": [
+                            "Memberi komentar positif dan membangun.",
+                            "Memancing kemarahan atau mengganggu orang lain secara daring.",
+                            "Membagikan karya seni digital.",
+                            "Menyampaikan kritik yang konstruktif."
+                        ],
+                        "answer": "Memancing kemarahan atau mengganggu orang lain secara daring."
+                    },
+                    {
+                        "id": 9,
+                        "image": "",
+                        "question": "Isu privasi yang sering muncul akibat penggunaan aplikasi dan layanan digital adalah...",
+                        "options": [
+                            "Meningkatnya biaya listrik.",
+                            "Pengumpulan dan penggunaan data pribadi pengguna tanpa persetujuan penuh.",
+                            "Keterbatasan akses ke media sosial.",
+                            "Kualitas kamera smartphone."
+                        ],
+                        "answer": "Pengumpulan dan penggunaan data pribadi pengguna tanpa persetujuan penuh."
+                    },
+                    {
+                        "id": 10,
+                        "image": "",
+                        "question": "Apa yang dimaksud dengan <b>Keamanan Siber (Cybersecurity)**?",
+                        "options": [
+                            "Penggunaan internet untuk tujuan hiburan.",
+                            "Praktik melindungi sistem, jaringan, dan program dari serangan digital.",
+                            "Desain web yang ramah pengguna.",
+                            "Teknik menulis kode program yang efisien."
+                        ],
+                        "answer": "Praktik melindungi sistem, jaringan, dan program dari serangan digital."
+                    },
+                    {
+                        "id": 11,
+                        "image": "",
+                        "question": "Seorang pengguna yang dapat mengevaluasi dan menafsirkan informasi dari berbagai sumber digital secara efektif disebut memiliki...",
+                        "options": [
+                            "Keterampilan Fisik",
+                            "Keterampilan Sosial",
+                            "Literasi Digital",
+                            "Kecerdasan Buatan"
+                        ],
+                        "answer": "Literasi Digital"
+                    },
+                    {
+                        "id": 12,
+                        "image": "",
+                        "question": "Isu etis yang terkait dengan <b>Kecerdasan Buatan (AI)</b> adalah...",
+                        "options": [
+                            "Kebutuhan daya listrik AI.",
+                            "Masalah bias dan diskriminasi dalam pengambilan keputusan otomatis.",
+                            "Kurangnya kecepatan internet AI.",
+                            "Ukuran fisik server AI."
+                        ],
+                        "answer": "Masalah bias dan diskriminasi dalam pengambilan keputusan otomatis."
+                    },
+                    {
+                        "id": 13,
+                        "image": "",
+                        "question": "Dalam berpikir kritis, mengenali <b>bias kognitif</b> (seperti kecenderungan membenarkan pandangan sendiri) membantu kita untuk...",
+                        "options": [
+                            "Meningkatkan kecepatan mengetik.",
+                            "Membuat keputusan yang lebih objektif dan logis.",
+                            "Lebih cepat menyebarkan informasi.",
+                            "Hanya mempercayai satu sumber saja."
+                        ],
+                        "answer": "Membuat keputusan yang lebih objektif dan logis."
+                    },
+                    {
+                        "id": 14,
+                        "image": "",
+                        "question": "Hukum atau regulasi yang memberikan hak eksklusif kepada pencipta untuk mengendalikan penggunaan karyanya disebut...",
+                        "options": [
+                            "Lisensi Terbuka",
+                            "Domain Publik",
+                            "Hak Cipta (Copyright)",
+                            "Kebebasan Berbicara"
+                        ],
+                        "answer": "Hak Cipta (Copyright)"
+                    },
+                    {
+                        "id": 15,
+                        "image": "",
+                        "question": "Salah satu dampak sosial negatif dari TIK adalah <b>Cyberloafing**, yaitu...",
+                        "options": [
+                            "Menggunakan internet untuk pekerjaan.",
+                            "Menggunakan internet untuk tujuan pribadi selama jam kerja/belajar.",
+                            "Membuat konten yang bermanfaat.",
+                            "Mengembangkan perangkat lunak baru."
+                        ],
+                        "answer": "Menggunakan internet untuk tujuan pribadi selama jam kerja/belajar."
+                    },
+                    {
+                        "id": 16,
+                        "image": "",
+                        "question": "Tujuan utama dari <b>Digital Citizenship</b> adalah untuk memastikan bahwa individu menggunakan teknologi secara...",
+                        "options": [
+                            "Maksimal tanpa batas.",
+                            "Eksklusif dan tersembunyi.",
+                            "Aman, etis, dan bertanggung jawab.",
+                            "Hanya untuk hiburan semata."
+                        ],
+                        "answer": "Aman, etis, dan bertanggung jawab."
+                    },
+                    {
+                        "id": 17,
+                        "image": "",
+                        "question": "Apa yang dimaksud dengan <b>Misinformasi**?",
+                        "options": [
+                            "Informasi yang benar tetapi disajikan dengan buruk.",
+                            "Informasi salah yang disebarkan tanpa ada niat jahat (kesalahan murni).",
+                            "Informasi yang sangat rahasia.",
+                            "Informasi yang dibagikan secara pribadi."
+                        ],
+                        "answer": "Informasi salah yang disebarkan tanpa ada niat jahat (kesalahan murni)."
+                    },
+                    {
+                        "id": 18,
+                        "image": "",
+                        "question": "Metode paling efektif untuk melindungi akun digital dari peretasan adalah menggunakan...",
+                        "options": [
+                            "Kata sandi yang sangat umum.",
+                            "Autentikasi Dua Faktor (2FA).",
+                            "Satu kata sandi untuk semua akun.",
+                            "Tidak menggunakan kata sandi sama sekali."
+                        ],
+                        "answer": "Autentikasi Dua Faktor (2FA)."
+                    },
+                    {
+                        "id": 19,
+                        "image": "",
+                        "question": "Dalam mengevaluasi informasi, pertanyaan kritis yang harus diajukan adalah <b>kecuali**...",
+                        "options": [
+                            "Siapa penulis/sumbernya?",
+                            "Apa bukti yang mendukung klaim ini?",
+                            "Apa warna latar belakang websitenya?",
+                            "Apakah informasi ini sesuai dengan informasi dari sumber kredibel lain?"
+                        ],
+                        "answer": "Apa warna latar belakang websitenya?"
+                    },
+                    {
+                        "id": 20,
+                        "image": "",
+                        "question": "Fenomena sosial di mana teknologi berkontribusi pada kesenjangan antara kelompok yang memiliki akses TIK dan yang tidak, disebut...",
+                        "options": [
+                            "Globalisasi",
+                            "Digital Divide (Kesenjangan Digital)",
+                            "Inovasi Teknologi",
+                            "Transformasi Digital"
+                        ],
+                        "answer": "Digital Divide (Kesenjangan Digital)"
                     }
                 ]
             }

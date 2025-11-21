@@ -13,11 +13,10 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="Logo" class="img-fluid" width="50">
-                Sibel Go!
+                SIBEL GO!
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -34,7 +33,7 @@
                         <a class="nav-link" href="#materials">Materi</a>
                     </li>
                     <li class="nav-item ms-lg-3">
-                        <a href="#start" class="btn btn-primary-gradient">Mulai Belajar</a>
+                        <a href="#materials" class="btn-get-started">Mulai Belajar</a>
                     </li>
                 </ul>
             </div>
@@ -45,27 +44,23 @@
     <section id="home" class="hero-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <h1 class="hero-title">
-                        Rangkuman Materi <br>
-                        <span class="text-gradient">Kelas 11 Lengkap</span>
+                        Rangkuman Materi Kelas 11 Lengkap
                     </h1>
-                    <p class="hero-subtitle">
-                        Belajar jadi lebih mudah dan efisien dengan rangkuman materi yang disusun khusus untuk siswa SMA
-                        kelas 11. Fokus pada inti pelajaran, hemat waktu belajar.
-                    </p>
-                    <div class="d-flex gap-3 hero-buttons">
-                        <a href="#materials" class="btn btn-primary-gradient btn-lg">
-                            <i class="fas fa-book-open me-2"></i>Lihat Materi
-                        </a>
-                        <a href="#features" class="btn btn-outline-primary btn-lg rounded-pill px-4">
-                            Pelajari Lebih Lanjut
-                        </a>
+                    <h2 class="hero-subtitle">
+                        Belajar jadi lebih mudah dan efisien dengan rangkuman materi yang disusun khusus untuk siswa
+                        Sekolah Menengah Atas (SMA)
+                    </h2>
+                    <div class="d-flex justify-content-center justify-content-lg-start hero-buttons">
+                        <a href="#materials" class="btn-get-started scrollto">Lihat Materi</a>
+                        <a href="#features" class="btn-watch-video"><i class="far fa-play-circle"></i><span>Pelajari
+                                Lebih Lanjut</span></a>
                     </div>
                 </div>
-                <div class="col-lg-6 mt-5 mt-lg-0 text-center hero-image-container">
-                    <img src="img/logo.png" alt="Study Illustration" class="img-fluid"
-                        style="max-width: 80%; filter: drop-shadow(0 0 20px rgba(0, 86, 179, 0.2));">
+                <div class="col-lg-6 order-1 order-lg-2 hero-image-container">
+                    <img src="img/logo.png" alt="Hero Image" class="img-fluid animated"
+                        style="max-width: 80%; filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.1));">
                 </div>
             </div>
         </div>
@@ -74,9 +69,9 @@
     <!-- Features Section -->
     <section id="features" class="features-section">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Kenapa Sibel Go?</h2>
-                <p class="text-gray lead">Kami membantu kamu memahami pelajaran dengan cara yang lebih cerdas.</p>
+            <div class="section-title">
+                <h2>Kenapa Sibel Go?</h2>
+                <p>Kami membantu kamu memahami pelajaran dengan cara yang lebih cerdas.</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-4">
@@ -119,61 +114,60 @@
     <!-- Materials Preview Section -->
     <section id="materials" class="py-5">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Materi Tersedia</h2>
-                <p class="text-gray lead">Pilih mata pelajaran yang ingin kamu pelajari.</p>
+            <div class="section-title">
+                <h2>Materi Tersedia</h2>
+                <p>Pilih mata pelajaran yang ingin kamu pelajari.</p>
             </div>
             <div class="row g-4 justify-content-center">
                 <!-- Math -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-card text-center">
-                        <div class="feature-icon mx-auto bg-primary bg-opacity-10 text-primary">
+                    <div class="material-card text-center">
+                        <div class="material-icon mx-auto">
                             <i class="fas fa-calculator"></i>
                         </div>
                         <h4 class="mb-3">Matematika</h4>
-                        <a href="mapel/matematika.html" class="btn btn-sm btn-outline-light rounded-pill">Baca
+                        <a href="mapel/matematika.html" class="btn btn-sm btn-outline-arsha px-4 py-2">Baca
                             Rangkuman</a>
                     </div>
                 </div>
                 <!-- Bindo -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-card text-center">
-                        <div class="feature-icon mx-auto bg-warning bg-opacity-10 text-warning">
+                    <div class="material-card text-center">
+                        <div class="material-icon mx-auto">
                             <i class="fa-solid fa-book-open"></i>
                         </div>
                         <h4 class="mb-3">Bahasa Indonesia</h4>
-                        <a href="mapel/bindo.html" class="btn btn-sm btn-outline-light rounded-pill">Baca Rangkuman</a>
+                        <a href="mapel/bindo.html" class="btn btn-sm btn-outline-arsha px-4 py-2">Baca Rangkuman</a>
                     </div>
                 </div>
                 <!-- Bahasa Inggris -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-card text-center">
-                        <div class="feature-icon mx-auto bg-success bg-opacity-10 text-success">
+                    <div class="material-card text-center">
+                        <div class="material-icon mx-auto">
                             <i class="fa-solid fa-book"></i>
                         </div>
                         <h4 class="mb-3">Bahasa Inggris</h4>
-                        <a href="mapel/bing.html" class="btn btn-sm btn-outline-light rounded-pill">Baca Rangkuman</a>
+                        <a href="mapel/bing.html" class="btn btn-sm btn-outline-arsha px-4 py-2">Baca Rangkuman</a>
                     </div>
                 </div>
                 <!-- Biology -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-card text-center">
-                        <div class="feature-icon mx-auto bg-danger bg-opacity-10 text-danger">
+                    <div class="material-card text-center">
+                        <div class="material-icon mx-auto">
                             <i class="fas fa-dna"></i>
                         </div>
                         <h4 class="mb-3">Biologi</h4>
-                        <a href="mapel/biologi.html" class="btn btn-sm btn-outline-light rounded-pill">Baca
-                            Rangkuman</a>
+                        <a href="mapel/biologi.html" class="btn btn-sm btn-outline-arsha px-4 py-2">Baca Rangkuman</a>
                     </div>
                 </div>
                 <!-- Informatika -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-card text-center">
-                        <div class="feature-icon mx-auto bg-info bg-opacity-10 text-info">
+                    <div class="material-card text-center">
+                        <div class="material-icon mx-auto">
                             <i class="fas fa-laptop-code"></i>
                         </div>
                         <h4 class="mb-3">Informatika</h4>
-                        <a href="mapel/informatika.html" class="btn btn-sm btn-outline-light rounded-pill">Baca
+                        <a href="mapel/informatika.html" class="btn btn-sm btn-outline-arsha px-4 py-2">Baca
                             Rangkuman</a>
                     </div>
                 </div>
@@ -186,11 +180,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-4 mb-md-0">
-                    <h5 class="fw-bold mb-3 text-white">Sibel Go</h5>
-                    <p class="text-gray">Teman belajar terbaikmu di masa SMA.</p>
+                    <h5 class="mb-3">SIBEL GO!</h5>
+                    <p class="text-gray">Assisten Belajar Siswa Dalam Pembelejaran Berbasis Web</p>
                 </div>
                 <div class="col-md-4 mb-4 mb-md-0">
-                    <h5 class="fw-bold mb-3 text-white">Tautan</h5>
+                    <h5 class="mb-3">Tautan</h5>
                     <ul class="list-unstyled">
                         <li><a href="#home" class="footer-link">Beranda</a></li>
                         <li><a href="#features" class="footer-link">Fitur</a></li>
@@ -198,7 +192,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h5 class="fw-bold mb-3 text-white">Hubungi Kami</h5>
+                    <h5 class="mb-3">Hubungi Kami</h5>
                     <div class="d-flex gap-3">
                         <a href="#" class="footer-link fs-5"><i class="fab fa-instagram"></i></a>
                         <a href="#" class="footer-link fs-5"><i class="fab fa-twitter"></i></a>
