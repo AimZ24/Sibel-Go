@@ -1,4 +1,3 @@
-````markdown name=README.md
 # Sibel Go!
 _Asisten Siswa Dalam Pembelajaran Berbasis Web_
 
