@@ -11,8 +11,8 @@ Sibel Go! adalah aplikasi berbasis web yang berfungsi sebagai asisten untuk memb
 
 ## Library
 
-Bootstrap 5 (via CDN)
-Font Awesome (via CDN)
+- Bootstrap 5 (via CDN)
+- Font Awesome (via CDN)
 
 ## Instalasi & Penggunaan
 1. Clone repository ini:  
