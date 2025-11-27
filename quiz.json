@@ -4,7 +4,7 @@
             "bab_1": {
                 "title": "Bunga Majemuk",
                 "summary": "<p><strong>Bunga Majemuk</strong> adalah bunga yang dihitung berdasarkan modal awal ditambah bunga yang terakumulasi. Rumus: Mn = Mo(1 + i)^n.</p>",
-                "image": "https://ibb.co.com/G3MpN8y6",
+                "image": "https://imgur.com/R3msPcv",
                 "questions": [
                     {
                         "id": 1,
@@ -32,7 +32,7 @@
                     },
                     {
                         "id": 3,
-                        "image": "https://ibb.co.com/mCTswSVg",
+                        "image": "https://imgur.com/aySjkKi",
                         "question": "Selesaikan soal pada gambar di atas",
                         "options": [
                             "Rp.3.257.780,00",
@@ -47,7 +47,7 @@
             "bab_2": {
                 "title": "Matriks",
                 "summary": "<p><strong>Matriks</strong> adalah susunan bilangan dalam bentuk baris dan kolom.</p><p>Operasi Matriks meliputi:</p><ul><li>Penjumlahan dan Pengurangan (ordo harus sama)</li><li>Perkalian Skalar</li><li>Perkalian Dua Matriks (kolom matriks 1 = baris matriks 2)</li><li>Determinan dan Invers</li></ul>",
-                "image": "https://ibb.co.com/MkZRktTC",
+                "image": "https://imgur.com/bRZBvPQ",
                 "questions": [
                     {
                         "id": 1,
@@ -63,7 +63,7 @@
                     },
                     {
                         "id": 2,
-                        "image": "https://ibb.co.com/yBhmX9j5",
+                        "image": "https://imgur.com/hjYPnrb",
                         "question": "Selesaikan soal pada gambar diatas",
                         "options": [
                             "[12 31 40 10]",
