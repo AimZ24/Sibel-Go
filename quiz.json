@@ -4,7 +4,7 @@
             "bab_1": {
                 "title": "Bunga Majemuk",
                 "summary": "<p><strong>Bunga Majemuk</strong> adalah bunga yang dihitung berdasarkan modal awal ditambah bunga yang terakumulasi. Rumus: Mn = Mo(1 + i)^n.</p>",
-                "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441084220939440149/WhatsApp_Image_2025-11-20_at_21.30.41.jpeg?ex=692081c4&is=691f3044&hm=01e3e07a4768977d779dda47a1eb8bc2ce7e030a649fe82c875813ba911551e5&",
+                "image": "https://ibb.co.com/G3MpN8y6",
                 "questions": [
                     {
                         "id": 1,
@@ -32,7 +32,7 @@
                     },
                     {
                         "id": 3,
-                        "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441240791644377200/image.png?ex=69211395&is=691fc215&hm=7073d26b910e771b189b6c247aef4679c41ce504c5cea17d36e523fc4718fd12&",
+                        "image": "https://ibb.co.com/mCTswSVg",
                         "question": "Selesaikan soal pada gambar di atas",
                         "options": [
                             "Rp.3.257.780,00",
@@ -47,7 +47,7 @@
             "bab_2": {
                 "title": "Matriks",
                 "summary": "<p><strong>Matriks</strong> adalah susunan bilangan dalam bentuk baris dan kolom.</p><p>Operasi Matriks meliputi:</p><ul><li>Penjumlahan dan Pengurangan (ordo harus sama)</li><li>Perkalian Skalar</li><li>Perkalian Dua Matriks (kolom matriks 1 = baris matriks 2)</li><li>Determinan dan Invers</li></ul>",
-                "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441235023431860314/image.png?ex=69210e36&is=691fbcb6&hm=5baadedd200cd3d832882289a992516a587988c2a12653366b31dc50b083ad85&",
+                "image": "https://ibb.co.com/MkZRktTC",
                 "questions": [
                     {
                         "id": 1,
@@ -63,7 +63,7 @@
                     },
                     {
                         "id": 2,
-                        "image": "https://cdn.discordapp.com/attachments/1249586769599660113/1441241544253509776/image.png?ex=69211449&is=691fc2c9&hm=c9a83f1da3de8d54724ae626a2ad70521e953a11d9f6692c2a337c4ef04a3361&",
+                        "image": "https://ibb.co.com/yBhmX9j5",
                         "question": "Selesaikan soal pada gambar diatas",
                         "options": [
                             "[12 31 40 10]",
